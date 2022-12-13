@@ -1,8 +1,13 @@
 import React from 'react'
 
 const Company = () => {
+  
   return (
-    <div>Company</div>
+    <div style={{paddingTop:"100px", border:"1px solid red", textAlign:"center"}}>
+      <div>
+        company
+      </div>
+    </div>
   )
 }
 
