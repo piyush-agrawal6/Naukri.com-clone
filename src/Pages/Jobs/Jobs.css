@@ -1,0 +1,122 @@
+.jobs-1{
+     
+    padding: 60px;
+    /* margin-top: 50px; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Icons-bag{
+   color: rgb(100, 100, 252);
+   font-size: 30px;
+}
+
+.job-text{
+   font-size: 22px;
+   color: rgb(97, 89, 89);
+   font-weight: 600;
+}
+
+.select{
+     margin-top: 40px;
+     font-size: 15px;
+     font-weight: 500;
+      
+}
+.select Button{
+   margin-left: 10px;
+}
+.posting-jobs{
+
+    
+   border: 1px solid black;
+   height: 1200px;
+   display: flex;
+}
+
+.section-1{
+   width: 65%;
+   border: 1px solid red;
+   height: 1200px;
+    
+}
+
+.section-2{
+   width: 35%;
+   /* border: 1px solid green; */
+   height: 1200px;
+}
+
+.manage-jobs{
+   height: 150px;
+   width: 95%;
+   border: 1px solid gray;
+   margin: auto;
+   margin-top: 30px;
+   border-radius: 5px;
+   display: flex;
+}
+.cyber{
+   height: 120px;
+   width: 180px;
+   /* border: 1px solid gray; */  
+}
+
+.job-prefence{
+   font-size: 17px;
+   font-weight: 500;
+}
+.Link{
+   color: blue;
+   font-weight: 500;
+}
+
+.job-criteria{
+
+   height: 220px;
+   width: 95%;
+   margin: auto;
+   /* border: 1px solid gray;  */
+   margin-top: 30px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.add-prefer{
+   height: 80px;
+
+   display: flex;
+}
+.add-prefer h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.email-market{
+   height: 100px;
+   width: 180px;
+   /* border: 1px solid gray;  */
+   margin-right: 22px;
+   margin-top: 20px;
+}
+.outline{
+    
+   display: flex;
+   margin-top: 5px;
+   /* border: 1px solid black; */
+   margin-top: 12px;
+   
+
+}
+.outline a{
+   color: #4A90E2;
+   font-weight: 500;
+   margin-left: 10px;
+}
+.add-icons{
+   color: #4A90E2;
+   font-size: 25px;
+   font-weight: 700;
+   margin-left: 10px;
+}
