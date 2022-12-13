@@ -1,12 +1,14 @@
 import React from 'react'
+import "./Company.css"
 
 const Company = () => {
   
   return (
-    <div style={{paddingTop:"100px", border:"1px solid red", textAlign:"center"}}>
-      <div>
-        company
+    <div className='company_Main'>
+      <div className='topHire'>
+        <b>Top companies hiring now</b>
       </div>
+      <div style={{}}>vik</div>
     </div>
   )
 }
