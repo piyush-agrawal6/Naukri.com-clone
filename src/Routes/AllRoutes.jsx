@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Navbar from "../Components/Navbar/Navbar";
 import Admin from "../Pages/Admin/Admin";
 import Company from "../Pages/Company/Company";
 import Home from "../Pages/Home/Home";
@@ -10,6 +11,7 @@ import Register from "../Pages/Register/Register";
 const AllRoutes = () => {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
@@ -19,6 +21,7 @@ const AllRoutes = () => {
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/admin" element={<Admin />}></Route>
       </Routes>
+      {/* <Footer/> */}
     </>
   );
 };
