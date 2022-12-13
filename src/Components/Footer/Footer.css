@@ -1,0 +1,63 @@
+.footer {
+  padding: 8rem 5rem 5rem 5rem;
+  background-color: rgb(247, 247, 247);
+}
+.footer > div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLogo {
+  width: 180px;
+  padding-bottom: 17px;
+}
+.footer > div > div p {
+  margin: 10px 0;
+  color: rgb(64, 64, 64);
+}
+.footer > div > div h3 {
+  margin: 10px 0;
+  font-weight: 700;
+}
+.footerIcons {
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+  color: rgb(143, 152, 161);
+}
+@media (max-width: 1150px) {
+  .footer {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+  .footer > div {
+    width: 100%;
+  }
+}
+@media (max-width: 820px) {
+  .footer > div {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 580px) {
+  .footer {
+    padding: 4rem 1rem 1rem 1rem;
+  }
+  .footer > div {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 9px;
+  }
+  .footer > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  .footer > div > div p {
+    margin: 3px 0;
+  }
+  .footer > div > div h3 {
+    margin: 3px 0;
+  }
+}
