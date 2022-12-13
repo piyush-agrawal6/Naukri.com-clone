@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Jobs = () => {
-  return (
-    <div className='jobContainer'>Jobs</div>
-  )
-}
+  return <div>Jobs</div>;
+};
 
-export default Jobs
+export default Jobs;
