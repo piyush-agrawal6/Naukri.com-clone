@@ -1,14 +1,44 @@
-.company_Main{
+/* Top heading */
+/* .company_Main{
     text-align:center;
-}
+} */
 .topHire{
-    padding-top:150px;
-    border:1px solid red;
+    padding-top:120px;
+    padding-bottom:50px;
     text-align:center;
-    background-color: rgb(243, 252, 255);
+    background-color: #f5f8fc;
 }
 .topHire>b{
-    border: 1px solid green;
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
+}
+
+
+/* slider */
+.comp_slider{
+    border: 1px solid rgb(184, 218, 250);
+    background-color: #eef0fc;
+    width: 70%;
+    margin:-30px auto;
+    padding: 20px;
+    border-radius: 15px 5px 15px 5px;
+}
+
+/* companies main*/
+.company_main{
+    border: 1px solid red;
+    width: 85%;
+    height: 300px;
+    margin: 80px auto;
+    display: flex;
+}
+/* companies > filters */
+.company_main>.comp_filters{
+    border: 1px solid blue;
+    width: 25%;
+}
+/* companies > companies list */
+.company_main>.comp_showlist{
+    border: 1px solid green;
+    width: 75%;
 }
