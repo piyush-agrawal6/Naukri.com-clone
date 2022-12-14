@@ -24,6 +24,7 @@ const Company = () => {
           <hr />
         </div>
 
+<<<<<<< HEAD
         <div className="comp_showlist">
         <div style={{ display: "flex", gap: "5px", color: "gray" }}>
           <ImOffice fontSize="20px"/>
@@ -34,5 +35,7 @@ const Company = () => {
     </div>
   );
 };
+=======
+>>>>>>> 27dc90b5371be2d7a98c2d8e627b8b374c90136c
 
 export default Company;
