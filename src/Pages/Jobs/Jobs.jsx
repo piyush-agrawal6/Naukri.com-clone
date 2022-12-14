@@ -6,18 +6,24 @@ import {   Button } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import {AiOutlinePlus} from "react-icons/ai"
  import Data from "../../data/jobs.json"
+ import {SlGraduation} from "react-icons/sl"
+ import {IoBagOutline} from "react-icons/io5"
+ import {CiLocationOn} from "react-icons/ci"
+ import {HiOutlineDocumentText} from "react-icons/hi"
+ import {TfiTimer} from "react-icons/tfi"
+import JobsPage from './JobsPage'
 const Jobs = () => {
   console.log(Data)
   return (
     <div > 
       <div className='jobs-1' >
-         <div style={{display:"flex", marginTop:"40px", }}>
+         <div className='recomend'>
          <IoBagAddSharp className='Icons-bag'/>
           <h2 className='job-text'>Recommended Jobs for You</h2>
          </div>
            <div className='select'>
            <span>You can select upto 5 jobs to apply</span>
-            <Button  >Apply</Button>
+            <Button>Apply</Button> 
            </div>
         </div>
 
@@ -32,15 +38,39 @@ const Jobs = () => {
                <div style={{marginTop:"12px"}}>
                <h2 className='job-prefence'>We could not find any jobs matching your preferences</h2>
               <ul>
-                <li>. We will notify you as soon as a new job is posted matching your criteria</li>
-                 <li>. <Link className='Link'>Manage Your Preferences</Link>    to ensure you receive the most relevant jobs</li>
+                <li className='match-criteria'>. We will notify you as soon as a new job is posted matching your criteria</li>
+                 <li className='match-criteria'>. <Link className='Link'>Manage Your Preferences</Link>    to ensure you receive the most relevant jobs</li>
               </ul>
                </div>
           </div>
+              <h2 className='total-jobs'>{Data.length} Jobs based on Your Desired Preferences</h2>
+            {Data.length>0 && Data.map((item)=>{
+                  return <Link to={`/jobspage/${item.id}`} > <div className='job-data' key={item.id}>
+                       
+                    <div className='data-marked'>
+                      <input type="checkbox" />
+                      <h2  > {item.title}</h2>
+                    </div>
+                    <div className='company-jobs'  >{item.company}</div>
+                    <div className='education'>
+                      <IoBagOutline className='icons-experience'/>
+                      <ul > { item.experience}</ul>
+                      <ul  >{item.salary}</ul>
+                      <ul style={{display:"flex",gap:"3px"}}  ><CiLocationOn className='loc-icon'/>{item.location}</ul>
+                    </div>
+                    <div className='text-outline'  ><HiOutlineDocumentText className='loc-icon' />{item.jobDescription.candidate}
+                     
+                    </div>
 
-            {/* {Data.length>0 && Data.map((item)=>{
-               return <div>{item.title}</div>
-            })} */}
+                    <div className='keyskill'>
+                      <ul> {item.keySkills}</ul>
+                    </div>
+                      <div className='time-btn'>
+                      <Button size='xs'><TfiTimer/>{item.posted}</Button>
+                      </div>
+                  </div>
+                  </Link>
+            })}
                  
          </div>
            {/* SECTION2 */}
@@ -55,7 +85,7 @@ const Jobs = () => {
                </div>
                 <div>
                    <span className='outline'><AiOutlinePlus className='add-icons'/>
-                        <a  >Add Your Preferred Job Role</a>
+                        <Link className='Link' >Add Your Preferred Job Role</Link>
                        </span>
                    <span className='outline'><AiOutlinePlus className='add-icons'/> <Link className='Link'>Add Your Preferred Work Location </Link> </span>
                    <span className='outline'><AiOutlinePlus className='add-icons'/><Link className='Link'>Add Your Preferred Salary</Link>    </span>
