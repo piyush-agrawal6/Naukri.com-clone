@@ -1,0 +1,46 @@
+.slick-prev::before{
+    width: 40px;
+    height: 40px;
+    color: rgb(151, 147, 147);
+    font-size: 30px;
+    margin-left: -40%;
+    /* z-index: 2; */
+}
+.slick-next::before{
+    /* background-color: blue; */
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: rgb(151, 147, 147);
+    justify-content: flex-end;
+    /* z-index: 2; */
+}
+
+.mainSlider>div{
+    /* border: 1px solid red; */
+    /* margin-left: 3px; */
+    padding: 10px ;
+}
+
+/* .slick-track>.slick-slide{
+    border: 1px solid blue;
+    text-align: center;
+} */
+
+.slick-slide>div>a>div{
+    margin-right: 15px;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 15px 5px 15px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slick-slide>div>a>div>div{
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* .slick-slide>div>a>div>div>p:nth-child(2){
+    position: absolute;
+    
+} */
