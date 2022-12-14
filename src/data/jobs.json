@@ -1,6 +1,7 @@
 [
   {
     "title": "Urgent Hiring!!! BPO/KPO-Voice and Non Voice Executive",
+    "id":1,
     "company": "Pyramid Jobs",
     "experience": "0-1 years",
     "salary": "₹ 1,75,000 - 2,50,000 P.A.",
@@ -45,6 +46,7 @@
   },
   {
     "title": "Sales Executive",
+    "id":2,
     "company": "Tushar Hr Consultancy",
     "experience": "0 - 4 years",
     "salary": "Not Disclosed",
@@ -79,6 +81,7 @@
   },
   {
     "title": "Marketing Intern",
+    "id":3,
     "company": "Prosofos India",
     "experience": "0 - 1 years",
     "salary": "Not Disclosed",
@@ -113,6 +116,7 @@
   },
   {
     "title": "Business Development Intern",
+    "id":4,
     "company": "Sugar Crystal Solutions",
     "experience": "0 - 1 years",
     "salary": "Not Disclosed",
@@ -144,6 +148,7 @@
   },
   {
     "title": "Customer Service Associate @ JP Morgan",
+    "id":5,
     "company": "Aviate Education",
     "experience": "0 - 5 years",
     "salary": "₹ 4,00,000 - 8,00,000 P.A.",
