@@ -1,0 +1,14 @@
+.company_Main{
+    text-align:center;
+}
+.topHire{
+    padding-top:150px;
+    border:1px solid red;
+    text-align:center;
+    background-color: rgb(243, 252, 255);
+}
+.topHire>b{
+    border: 1px solid green;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+}
