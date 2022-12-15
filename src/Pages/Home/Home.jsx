@@ -9,7 +9,22 @@ const Home = () => {
           <div className="homeMiddle"></div>
           <div className="homeFooter">VIEW ALL</div>
         </div>
-        <div className="homeProfile">Profile Details</div>
+        <div className="homeProfile">
+          <div className="homeProfileImg">
+            <img src="./assets/user.png" alt="" />
+          </div>
+          <div className="homeProfileName">
+          <h2>User Name</h2>
+          <p>University Name</p>
+          <p>Job category</p>
+          <p>Other Details</p>
+          <p>Other Details</p>
+          <p>Other Details</p>
+          <p>Other Details</p>
+          <p>Other Details</p>
+          <h3>UPDATE PROFILE</h3>
+          </div>
+        </div>
       </div>
       <div className="homeDiv">
         <div>

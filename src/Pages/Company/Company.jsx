@@ -2,7 +2,7 @@ import React from "react";
 import "./Company.css";
 import CompSlider from "./companyComps/compSlider";
 import { BsFunnel } from "react-icons/bs";
-import {ImOffice} from "react-icons/im";
+import { ImOffice } from "react-icons/im";
 
 const Company = () => {
   return (
@@ -24,10 +24,9 @@ const Company = () => {
           <hr />
         </div>
 
-<<<<<<< HEAD
         <div className="comp_showlist">
-        <div style={{ display: "flex", gap: "5px", color: "gray" }}>
-          <ImOffice fontSize="20px"/>
+          <div style={{ display: "flex", gap: "5px", color: "gray" }}>
+            <ImOffice fontSize="20px" />
             <b>Showing 2000 companies</b>
           </div>
         </div>
@@ -35,7 +34,5 @@ const Company = () => {
     </div>
   );
 };
-=======
->>>>>>> 27dc90b5371be2d7a98c2d8e627b8b374c90136c
 
 export default Company;
