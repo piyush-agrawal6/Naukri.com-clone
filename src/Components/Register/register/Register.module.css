@@ -1,0 +1,86 @@
+.contentRegister {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	gap: 5%;
+	margin-top: 7%;
+}
+
+/* Right pane */
+.rightRegister {
+	width: fit-content;
+	display: flex;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.rightRegisterBox {
+	text-align: left;
+}
+
+.rightRegisterBoxInputDiv {
+	display: flex;
+	align-items: center;
+	border: 1px solid #e1e4e7;
+	border-radius: 20px;
+	width: fit-content;
+}
+
+.rightRegisterBoxInput {
+	width: 1px;
+}
+
+.rightRegisterBoxInputBtn {
+	background-color: #ff7555;
+	color: white;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.rightRegisterBoxInput {
+	visibility: hidden;
+}
+
+.rightRegisterForm {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.endSpan {
+	color: blue;
+	cursor: pointer;
+}
+
+.orGoogle{
+	margin-top: 100px;
+	margin-left: 30px;
+	align-items: center;
+}
+
+
+.orGoogleDividerOR{
+	border: 1px solid gray;
+	border-radius: 50%;
+	width: fit-content;
+	height: fit-content;
+	padding: 5px;
+	font-size: 10px;
+}
+
+/* Right pane */
+
+/* Media Queries */
+
+@media screen and (max-width: 720px) and (min-width: 401px) {
+	.contentRegister {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 5%;
+		margin-top: 7%;
+	}
+}

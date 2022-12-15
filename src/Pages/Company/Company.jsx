@@ -88,10 +88,9 @@ const Company = () => {
           </div>
           <hr />
         </div>
- 
-        {/* companies list */}
         <div className="comp_showlist">
-          <div className="comp_div">
+          <div style={{ display: "flex", gap: "5px", color: "gray" }}>
+
             <ImOffice fontSize="20px" />
             <b>Showing 2000 companies</b>
           </div>
