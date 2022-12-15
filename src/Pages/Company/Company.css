@@ -67,6 +67,13 @@
     width: 64%;
     margin-left: 29%;
 }
+.bottom_hire>b{
+    font-size: 18px;
+}
 .bottom_hire_tabs{
-    border: 1px solid blue;
+    border: 1px solid rgb(218, 218, 221);
+    padding: 20px;
+    margin: 20px 0px 30px 0px;
+    border-radius: 10px 5px 10px 5px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
