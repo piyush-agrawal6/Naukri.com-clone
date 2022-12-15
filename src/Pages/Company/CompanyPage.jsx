@@ -6,4 +6,4 @@ const CompanyPage = () => {
   )
 }
 
-export default CompanyPage
+export default CompanyPage;

@@ -5,6 +5,8 @@ import { Checkbox, CheckboxGroup,Stack } from '@chakra-ui/react'
 import { BsFunnel } from "react-icons/bs";
 import { ImOffice } from "react-icons/im";
 import BottomHire from "./companyComps/bottomHire";
+import { Link } from "react-router-dom";
+
 const Company = () => {
   const handleChange=(e)=>{
     console.log(e.target.value);
@@ -15,6 +17,7 @@ const Company = () => {
       <div className="topHire">
         <b>Top companies hiring now</b>
       </div>
+      {/* <Link to={"/companypage"}>Comapnypage</Link> */}
       {/* slider */}
       <div className="comp_slider">
         <CompSlider />
