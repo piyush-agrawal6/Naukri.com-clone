@@ -32,33 +32,8 @@ const Navbar = () => {
                 <Link>LOOK AT</Link>
                 <MdClose className="cross" onClick={handleClick} />
               </p>
-
               <li className="menuItem" onClick={handleClick}>
                 <Link to="/jobs">Jobs</Link>
-                {/* <div className="subMenu megaMenu menuColumn">
-                  <div className="menuList">
-                    <ul>
-                      <li>
-                        <Link>Kurtas & Suits</Link>
-                      </li>
-                      <li>
-                        <Link>Sarees</Link>
-                      </li>
-                      <li>
-                        <Link>Palazzos</Link>
-                      </li>
-                      <li>
-                        <Link>Jackets</Link>
-                      </li>
-                      <li>
-                        <Link>Jeans</Link>
-                      </li>
-                      <li>
-                        <Link>Jumpsuits</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div> */}
               </li>
               <li className="menuItem" onClick={handleClick}>
                 <Link to="/company">Companies</Link>
@@ -97,7 +72,7 @@ const Navbar = () => {
           <div className="navIcons">
             <Link to="/profile">
               <CgProfile className="sideIcons" />
-              <p>Profile</p>
+              <p className="display">Profile</p>
             </Link>
           </div>
           <div className="navIcons">
