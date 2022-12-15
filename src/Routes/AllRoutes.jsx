@@ -6,6 +6,7 @@ import Admin from "../Pages/Admin/Admin";
 import Company from "../Pages/Company/Company";
 import Home from "../Pages/Home/Home";
 import Jobs from "../Pages/Jobs/Jobs";
+import JobsPage from "../Pages/Jobs/JobsPage";
 import Login from "../Pages/Login/Login";
 import Profile from "../Pages/Profile/Profile";
 import Register from "../Pages/Register/Register";
