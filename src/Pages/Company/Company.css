@@ -28,17 +28,45 @@
 .company_main{
     border: 1px solid red;
     width: 85%;
-    height: 300px;
     margin: 80px auto;
     display: flex;
+}
+.comp_div{
+    display: flex;
+    gap: 5px;
+    color: gray;
+    margin-bottom: 20px;
 }
 /* companies > filters */
 .company_main>.comp_filters{
     border: 1px solid blue;
     width: 25%;
 }
+.cat_checkbox{
+    margin: 15px 0px ;
+}
+.cat_checkbox>p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.cat_checkbox>div{
+    height: 125px;
+    overflow:auto;
+}
+
 /* companies > companies list */
 .company_main>.comp_showlist{
     border: 1px solid green;
     width: 75%;
+}
+
+
+/* top hiring companies in India */
+.bottom_hire{
+    /* border: 1px solid red; */
+    width: 64%;
+    margin-left: 29%;
+}
+.bottom_hire_tabs{
+    border: 1px solid blue;
 }
