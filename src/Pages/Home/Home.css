@@ -1,0 +1,75 @@
+.home {
+  padding: 8rem 0 3rem 0;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+}
+.home > div {
+  width: 78%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home > div > div {
+  background-color: white;
+  height: 400px;
+}
+.homeJob {
+  width: 65%;
+  background-color: white;
+}
+.homeHeader {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid lightgray;
+  font-weight: 700;
+}
+.homeMiddle {
+  height: 70%;
+  display: flex;
+  padding: 1rem 2rem;
+}
+.homeFooter {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: flex-end;
+  border-top: 1px solid lightgray;
+  color: rgb(11, 148, 194);
+}
+.homeProfile {
+  width: 33%;
+  background-color: white;
+}
+.homeDiv > div {
+  width: 49%;
+}
+@media (max-width: 940px) {
+  .home {
+    padding: 5rem 0 1rem 0;
+  }
+  .home > div {
+    width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .home {
+    padding: 3rem 0 1rem 0;
+  }
+  .home > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .homeJob {
+    width: 100%;
+  }
+  .homeProfile {
+    width: 100%;
+  }
+  .homeDiv > div {
+    width: 100%;
+  }
+}
