@@ -1,0 +1,20 @@
+.hireTabs button{
+    font-weight: bold;
+}
+.hireTabs button:active{
+    color: orange;
+}
+
+.hireList>ul>li{
+    list-style-type: disc;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hireList>ul{
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:40px;
+    row-gap:10px;
+}
