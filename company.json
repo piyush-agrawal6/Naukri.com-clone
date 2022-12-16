@@ -1,0 +1,174 @@
+{
+    "posts": [
+        {
+            "title": "Hitachi",
+            "id": 1,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Inspire the Next",
+            "rating": "4.0",
+            "reviews": "4.8K reviews",
+            "nature": [
+                "Manufacturing",
+                "MNCs",
+                "B2C",
+                "Unicorns"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/142780.gif",
+            "about": "Hitachi Founded in 1910 has brought together the world's greatest minds to help breathe life into new possibilities and drive innovation for a better future. That's why they look for individuals who share their pioneering spirit, have imaginative ideas, and are fearless when it comes to tackling the world's biggest challenges.Hitachi says that Our people love technology and they love making a difference. They have a passion for finding new solutions and working with brilliant colleagues. Every day they dedicate themselves to a huge range of exciting projects, contributing to the Hitachi vision around the globe.From engineering new sustainability solutions that conserve water and energy to creating the infrastructure for the smart cities of tomorrow, there's no challenge too great for our pioneers. And there's no shortage of opportunities for you to make a difference.",
+            "comp_type": "Private",
+            "founded": "1910 (112 yrs old)",
+            "company_size": "100001+",
+            "website": "https://www.hitachi.com/"
+        },
+        {
+            "title": "Tata International",
+            "id": 2,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Power the life",
+            "rating": "4.0",
+            "reviews": "315K reviews",
+            "nature": [
+                "Manufacturing",
+                "MNCs",
+                "B2C",
+                "Product",
+                "Unicorns",
+                "Internet",
+                "Fintech",
+                "FMCG & Retail"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/52222.gif",
+            "about": "Tata International Limited [TIL] is a global trading and distribution company with a network of offices and subsidiaries spanning more than 39 countries in Africa, Asia, Europe and the Americas. As a member of the reputed business conglomerate the Tata Group, we pride ourselves in upholding the highest ethical standards in the way we conduct our businesses. Supported by a 7000+ strong employee base, we are strongly driven by customer centricity, and have, over the years, formed strategic alliances and partnerships with market leaders that have reinforced our role as preferred partners in international trade and business. Our worldwide revenues of US $2.59 billion in FY19 have set us firmly on a path of sustained growth even as we continue to focus on value-added offerings for our customers, backed by strong compliance of global norms within the sectors in which we operate. We leverage our worldwide presence along with sourcing and marketing competencies to deliver what we promise to customers across our five key business verticals.",
+            "comp_type": "Public",
+            "founded": "1962 (60 yrs old)",
+            "company_size": "500000-1000000",
+            "website": "not available"
+        },
+        {
+            "title": "Metropolis Healthcare",
+            "id": 3,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Power the Health",
+            "rating": "4.0",
+            "reviews": "315 reviews",
+            "nature": [
+                "Healthcare",
+                "MNCs",
+                "B2C",
+                "Hospitality",
+                "Fintech"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/2071422.gif",
+            "about": "We are one of the leading diagnostics companies in India, by revenue, as of March 31, 2018 (Source: Frost & Sullivan). We have widespread presence across 19 states in India, as of March 31, 2018, with leadership position in west and south India (Source: Frost & Sullivan). Through our widespread operational network, we offer a comprehensive range of clinical laboratory tests and profiles, which are used for prediction, early detection, diagnostic screening, confirmation and/or monitoring of the disease. We also offer analytical and support services to clinical research organizations for their clinical research projects. During the financial year 2018, we conducted approximately 16.0 million tests from approximately 7.7 million patient visits.We offer a broad range of approximately 3,487 clinical laboratory tests and 530 profiles, as of December 31, 2018. The profile comprises of a variety of test combinations which are specific to a disease or disorder as well as wellness profiles that are used for health and fitness screening.",
+            "comp_type": "Private",
+            "founded": "1980 (42 yrs old)",
+            "company_size": "10001-5000",
+            "website": "not available"
+        },
+        {
+            "title": "Infosys",
+            "id": 4,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Powered by Intellect. Driven by Values",
+            "rating": "3.9",
+            "reviews": "28.9K reviews",
+            "nature": [
+                "Edtech",
+                "Unicorns",
+                "B2C",
+                "MNCs",
+                "Internet"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/13832.gif",
+            "about": "Infosys is a global leader in next-generation digital services and consulting. Over 300,000 of our people work to amplify human potential and create the next opportunity for people, businesses, and communities.With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer clients, in more than 50 countries, as they navigate their digital transformation powered by the cloud. We enable them with an AI-powered core, empower the business with agile digital at scale and drive continuous improvement with always-on learning through the transfer of digital skills, expertise, and ideas from our innovation ecosystem. We are deeply committed to being a well-governed, environmentally sustainable organization where diverse talent thrives in an inclusive workplace. Our purpose is to amplify human potential and create the next opportunity for people, businesses, and communities.",
+            "comp_type": "Public",
+            "founded": "1981 (41 yrs old)",
+            "company_size": "100001+",
+            "website": "https://www.infosys.com/"
+        },
+        {
+            "title": "DMart",
+            "id": 5,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Driven by Values",
+            "rating": "3.9",
+            "reviews": "2.8K reviews",
+            "nature": [
+                "FMCG & Retail",
+                "Unicorns",
+                "B2C",
+                "Product"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/1547726.gif",
+            "about": "DMart is a one-stop supermarket chain that aims to offer customers a wide range of basic home and personal products under one roof. Each DMart store stocks home utility products - including food, toiletries, beauty products, garments, kitchenware, bed and bath linen, home appliances and more - available at competitive prices that our customers appreciate. Our core objective is to offer customers good products at great value.DMart was started by Mr. Radhakishan Damani and his family to address the growing needs of the Indian family. From the launch of its first store in Powai in 2002, DMart today has a well-established presence in 234 locations across Maharashtra, Gujarat, Andhra Pradesh, Madhya Pradesh, Karnataka, Telangana, Chhattisgarh, NCR, Tamil Nadu, Punjab and Rajasthan. With our mission to be the lowest priced retailer in the regions we operate, our business continues to grow with new locations planned in more cities.The supermarket chain of DMart stores is owned and operated by Avenue Supermarts Ltd. (ASL). The company has its headquarters in Mumbai.",
+            "comp_type": "Private",
+            "founded": "2000 (41 yrs old)",
+            "company_size": "1001-5000",
+            "website": "not available"
+        },
+        {
+            "title": "PhonePe",
+            "id": 6,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "Online portal for monetary transactions, bill payments and shopping",
+            "rating": "4.2",
+            "reviews": "937 reviews",
+            "nature": [
+                "Startups",
+                "Unicorns",
+                "B2C",
+                "Banking & Finance",
+                "Fortune 500"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/2872246.gif",
+            "about": "PhonePe Private Limited or PhonePe is an Indian e-commerce payment system and digital wallet company headquartered in Bangalore, India. It was founded in December 2015,[3] by Sameer Nigam and Rahul Chari. PhonePe app went live in August 2016 and was the first payment app built on Unified Payments Interface (UPI). The PhonePe app is available in over 11 Indian languages.Using PhonePe, users can send and receive money, DTH, recharge mobile, data cards, make utility payments, buy gold and shop online and offline. In addition PhonePe also allows users to book Ola rides, pay for Redbus tickets, order food on Freshmenu, eaf, fit and avail Goibibo Flight and Hotel services through microapps on its platform.",
+            "comp_type": "Private",
+            "founded": "2015 (7 yrs old)",
+            "company_size": "1001-5000",
+            "website": "http://www.phonepe.com"
+        },
+        {
+            "title": "Vodafone Idea (Vi)",
+            "id": 7,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "#TogetherForTommorrow",
+            "rating": "4.2",
+            "reviews": "14.1K reviews",
+            "nature": [
+                "Fortune 500",
+                "Internet",
+                "B2C",
+                "Startups",
+                "Hospitality"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/179424.gif",
+            "about": "Vodafone Idea Limited is an Aditya Birla Group and Vodafone Group partnership. It is India’s leading telecom service provider. The Company provides pan India Voice and Data services across 2G, 3G and 4G platform. With the large spectrum portfolio to support the growing demand for data and voice, the company is committed to deliver delightful customer experiences and contribute towards creating a truly ‘Digital India’ by enabling millions of citizens to connect and build a better tomorrow. The Company is developing infrastructure to introduce newer and smarter technologies, making both retail and enterprise customers future ready with innovative offerings, conveniently accessible through an ecosystem of digital channels as well as extensive on-ground presence. The Company is listed on National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) in India.",
+            "comp_type": "Public",
+            "founded": "2018 (4 yrs old)",
+            "company_size": "10001-50000",
+            "website": "http://www.myvi.in"
+        },
+        {
+            "title": "Cigna TTK",
+            "id": 8,
+            "back_img": "https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
+            "subtitle": "#TogetherForTommorrow",
+            "rating": "4.0",
+            "reviews": "153 reviews",
+            "nature": [
+                "Fortune 500",
+                "Internet",
+                "Healthcare",
+                "Banking & Finance",
+                "Startups",
+                "Hospitality"
+            ],
+            "logo": "https://img.naukimg.com/logo_images/groups/v1/756028.gif",
+            "about": "ManipalCigna Health insurance Company Limited (formerly known as CignaTTK Health Insurance Company Limited) is a joint venture between the Manipal Group, a leader in the field of healthcare delivery and higher education in India and Cigna Corporation, a global health services company with presence in 30+ countries and serving 160 million+ customers around the world. With a deep focus on health and wellness, at ManipalCigna Health Insurance we offer a full suite of insurance solutions ranging from health, personal accident, major illness, travel and global care to individual customers, employer-employee, and non-employer-employee groups to meet their diverse health needs. We understand our customers’ needs and provide a variety of wellness programs to guide them along the road to physical, emotional and financial well-being.",
+            "comp_type": "Private",
+            "founded": "2012 (10 yrs old)",
+            "company_size": "1001-5000",
+            "website": "not available"
+        }
+    ]
+}

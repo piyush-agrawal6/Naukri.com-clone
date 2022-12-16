@@ -1,8 +1,8 @@
 import { Box, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 import { useState } from "react";
-import "./bottomHire.css";
+import "./overviewTab.css";
 
-function BottomHire() {
+function Overview({title,about}) {
   const [tabIndex, setTabIndex] = useState(0);
 
   const handleTabsChange = (index) => {
@@ -12,25 +12,19 @@ function BottomHire() {
   return (
     <Box>
       <Tabs index={tabIndex} onChange={handleTabsChange}>
-        <TabList className="hireTabs">
-          <Tab>Company by Type</Tab>
-          <Tab>Comapany by Industry</Tab>
-          <Tab>Comapny by Location</Tab>
+        <TabList className="over_tabs">
+          <Tab>Overview</Tab>
+          <Tab>Jobs</Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
-            <div className="hireList">
-              <ul>
-                <li>Foreign MNC companies in India</li>
-                <li>Corporate companies in India</li>
-                <li>Startups companies in India</li>
-                <li>Indian MNC companies in India</li>
-                <li>Govt / PSU companies in India</li>
-              </ul>
+            <div className="over_div">
+                <b>About {title}</b>
+                <p>{about}</p>
             </div>
           </TabPanel>
           <TabPanel>
-          <div className="hireList">
+          <div className="jobs_div">
               <ul>
                 <li>IT services & consulting companies in India</li>
                 <li>Software product companies in India</li>
@@ -45,18 +39,6 @@ function BottomHire() {
               </ul>
             </div>
           </TabPanel>
-          <TabPanel>
-          <div className="hireList">
-              <ul>
-                <li>Companies in Banglore / Bengaluru</li>
-                <li>Companies in Delhi / NCR</li>
-                <li>Companies in Mumbai (All areas)</li>
-                <li>Companies in Haidrabad/Secundrabad</li>
-                <li>Companies in Chennai</li>
-                <li>Companies in Pune</li>
-              </ul>
-            </div>
-          </TabPanel>
         </TabPanels>
       </Tabs>
     </Box>
@@ -65,4 +47,4 @@ function BottomHire() {
 
 
 
-export  {BottomHire};
+export  {Overview};
