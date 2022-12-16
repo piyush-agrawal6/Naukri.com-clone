@@ -1,0 +1,60 @@
+.company_card{
+    border: 1px solid rgb(230, 230, 230);
+    width: 48%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.company_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.company_card>.logo_image{
+    border:1px solid rgb(211, 211, 211);
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+}
+.company_info{
+    margin: 0px 10px;
+}
+.company_info>p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nature_div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 5px 0px;
+}
+.nature_div>div{
+    border: 1px solid rgb(211, 208, 208);
+    font-size: 14px;
+    padding: 1px 4px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .company_card {
+        width: 60%;
+        height: auto;
+    }
+    /* .logo_image{
+        width:100px;
+        height:100px;
+    } */
+  }
+@media only screen and (max-width:800px) {
+    .company_card {
+        width: 60%;
+        height: auto;
+    }
+    .company_card>.logo_image{
+        width:80px;
+        height:80px;
+    }
+  }

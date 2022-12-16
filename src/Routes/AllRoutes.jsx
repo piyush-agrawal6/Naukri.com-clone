@@ -22,7 +22,7 @@ const AllRoutes = () => {
         <Route path="/jobs" element={<Jobs />}></Route>
         <Route path="/jobspage/:id" element={<JobsPage/>}></Route>
         <Route path="/company" element={<Company />}></Route>
-        <Route path="/companypage" element={<CompanyPage />}></Route>
+        <Route path="/companypage/:id" element={<CompanyPage />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/admin" element={<Admin />}></Route>
       </Routes>
