@@ -1,5 +1,7 @@
-import React from "react";
-import RegisterPage from "../../Components/Register/register/RegisterPage";
+
+import React from 'react'
+import RegisterPage from '../../Components/Register/register/RegisterPage'
+
 
 const Register = () => {
   return (
@@ -8,5 +10,6 @@ const Register = () => {
     </div>
   );
 };
+
 
 export default Register;
