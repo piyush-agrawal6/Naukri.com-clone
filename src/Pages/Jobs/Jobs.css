@@ -1,6 +1,6 @@
 .jobs-1{
      
-   padding: 60px;
+   padding: 50px;
    /* margin-top: 50px; */
    /* border: 1px solid black; */
    display: flex;
@@ -35,14 +35,14 @@
 
    
   /* border: 1px solid black; */
-  height: 1200px;
+  height: 1350px;
   display: flex;
 }
 
 .section-1{
   width: 65%;
   /* border: 1px solid red; */
-  height: 1200px;
+  height: 1350px;
    
 }
 
@@ -78,7 +78,7 @@
 
 .job-criteria{
 
-  height: auto;
+  height: 220px;
   width: 95%;
   margin: auto;
   /* border: 1px solid gray;  */
@@ -204,7 +204,7 @@
   margin-top: 14px;
 }
 
-@media all and  (min-width: 451px) and (max-width:750px){
+@media all and  (min-width: 451px) and (max-width:900px){
   .section-2{
       display: none;
   }

@@ -9,6 +9,7 @@ import Jobs from "../Pages/Jobs/Jobs";
 import Login from "../Pages/Login/Login";
 import Profile from "../Pages/Profile/Profile";
 import Register from "../Pages/Register/Register";
+import JobsPage from "../Pages/Jobs/JobsPage";
 const AllRoutes = () => {
   return (
     <>
