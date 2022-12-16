@@ -104,6 +104,7 @@ const Company = () => {
         {/* companies list */}
         <div className="comp_showlist">
           <div className="comp_div">
+
             <ImOffice fontSize="20px" />
             <b>Showing 2000 companies</b>
           </div>
