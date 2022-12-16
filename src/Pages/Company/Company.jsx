@@ -5,7 +5,6 @@ import { Checkbox, CheckboxGroup,Stack } from '@chakra-ui/react'
 import { BsFunnel } from "react-icons/bs";
 import { ImOffice } from "react-icons/im";
 import BottomHire from "./companyComps/bottomHire";
-
 const Company = () => {
   const handleChange=(e)=>{
     console.log(e.target.value);
@@ -89,6 +88,8 @@ const Company = () => {
 
         <div className="comp_showlist">
           <div style={{ display: "flex", gap: "5px", color: "gray" }}>
+
+
             <ImOffice fontSize="20px" />
             <b>Showing 2000 companies</b>
           </div>

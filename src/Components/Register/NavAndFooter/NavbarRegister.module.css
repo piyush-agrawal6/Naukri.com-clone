@@ -1,0 +1,29 @@
+.navbarBox{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px 100px;
+}
+
+
+@media screen and (max-width: 720px) and (min-width: 401px) {
+
+  /* .navbarMainDiv{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  } */
+
+  .navbarBox{
+    width: 720px;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    margin-bottom: 20%;
+    text-align: left;
+  }
+
+  /* .alreadyRegistered{
+    text-align: right;
+    margin-right: 10%;
+  } */
+}
