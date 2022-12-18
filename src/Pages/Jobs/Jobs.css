@@ -5,7 +5,7 @@
    /* border: 1px solid black; */
    display: flex;
    justify-content: space-between;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .Icons-bag{
   color: rgb(100, 100, 252);
@@ -198,11 +198,15 @@
 .time-btn{
     width: 85%;
     margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 8px;
+     
 }
-.time-btn Button{
-  
-  margin-top: 14px;
-}
+  .time-btn Button{
+    font-size: 12px;
+     
+  }
+ 
 
 @media all and  (min-width: 451px) and (max-width:900px){
   .section-2{
@@ -211,7 +215,7 @@
   .section-1{
       width: 100%;
       /* border: 1px solid red; */
-      height: 1200px;
+      height:  auto;
        
   }
   .jobs-1{
@@ -233,6 +237,13 @@
       font-size: 10px;
       font-weight: 500;
        
+}
+.posting-jobs{
+
+   
+  /* border: 1px solid black; */
+  height: auto;
+   
 }
 .select Button{
   size: 20px;
@@ -325,7 +336,7 @@
   .job-data{
       height:  auto;
       width: 90%;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       margin: auto;
       margin-top: 20px;
       border-radius: 5px;
@@ -354,6 +365,17 @@
       margin-top: 5px;
       font-size: 8px;
   }
+  .time-btn{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+     
+     
+}
+  .time-btn Button{
+    font-size: 8px;
+     
+  }
 }
 
 @media all and  (min-width: 100px) and (max-width:450px){
@@ -363,7 +385,7 @@
   .section-1{
       width: 100%;
       /* border: 1px solid red; */
-      height: 1200px;
+      height: auto;
        
   }
   .jobs-1{
@@ -374,6 +396,13 @@
        
        
       box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .posting-jobs{
+
+   
+    /* border: 1px solid black; */
+    height: auto;
+     
   }
   .recomend{
        
@@ -463,7 +492,7 @@
   .job-data{
       height:  auto;
       width: 90%;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       margin: auto;
       margin-top: 20px;
       border-radius: 5px;
@@ -503,5 +532,17 @@
   .keyskill ul{
       margin-top: 5px;
       font-size: 5px;
+  }
+  .time-btn{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+     
+     
+}
+  .time-btn Button{
+    font-size: 6px;
+     
+      padding: 1px 1px;
   }
 }

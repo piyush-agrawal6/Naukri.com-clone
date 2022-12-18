@@ -94,6 +94,7 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    /* border: 1px solid black */
 }
 .part-1{
     height: 130px;
@@ -319,6 +320,7 @@
     .job-review ul{
         font-size: 12px;
     }
+  
 
     .part-1{
         height: 130px;
@@ -427,34 +429,49 @@
     .job-detail h2{
         font-size: 10px;
         font-weight: 600;
-        margin-left: 20px;
+        margin-left: 50px;
 
          
     }
     .job-review{
         display: flex;
-        width: 85%;
+        width: 75%;
         margin: auto;
         /* border: 1px solid  red; */
     }
     .job-review ul{
         font-size: 12px;
     }
+    .save{
+        height: 180px;
+        width: 100%;
+        flex-direction: column;
+        border: 1px solid rgb(212, 212, 212);
+        border-left: none;
+        border-right: none;
+        
+        border-top: none;
+        /* border: 1px solid black; */
+         
+    }
 
     .part-1{
         height: 130px;
-        width: 60%;
+        width: 100%;
         /* border: 1px solid black; */
+        line-height: 30px;
     }
     .part-2{
-        height: 130px;
+        height: 80px;
         width: 40%;
         /* border: 1px solid brown; */
+        margin-left: 30px;
+        
     }
     .Apply-btn{
         gap: 20px;
-       margin-top: 40px;
-        margin-left: 3px;
+       margin-top: 5px;
+        margin-left: 15px;
         /* border: 1px solid black; */
         display: flex;
    }

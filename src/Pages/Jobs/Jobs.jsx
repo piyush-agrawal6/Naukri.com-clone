@@ -66,7 +66,7 @@ const Jobs = () => {
                       <ul> {item.keySkills}</ul>
                     </div>
                       <div className='time-btn'>
-                      <Button size='xs'><TfiTimer/>{item.posted}</Button>
+                      <Button  size='xs'><TfiTimer/>{item.posted}</Button>
                       </div>
                   </div>
                   </Link>
