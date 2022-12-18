@@ -7,7 +7,6 @@ import {
   Input,
   InputLeftAddon,
   InputGroup,
-  Icon,
   Text,
   Flex,
   Checkbox,
@@ -18,17 +17,17 @@ import {
 import React, { useEffect, useState } from "react";
 import style from "./Register.module.css";
 import { FaSuitcase, FaBook } from "react-icons/fa";
-// import { GiSchoolBag } from "react-icons/gi";
 import { RiWhatsappFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
 import NavbarRegister from "../NavAndFooter/NavbarRegister";
 import FooterRegister from "../NavAndFooter/FooterRegister";
 import LeftPane from "./LeftPane";
 import { useDispatch, useSelector } from "react-redux";
-import { registerAPI } from "../storeRegister/actionsRegister";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { registerAPI } from "../../../Redux/Auth/actionsRegister";
 
 const RegisterPage = () => {
+  const { isReg } = useSelector((store) => store.auth);
   const dispatch = useDispatch();
   let navigate = useNavigate();
 
@@ -36,9 +35,8 @@ const RegisterPage = () => {
     name: "",
     email: "",
     password: "",
-    username: "",
     mobile: "",
-    description: "",
+    role: "user",
   });
 
   const handleRegChange = (e) => {
@@ -46,33 +44,22 @@ const RegisterPage = () => {
     setRegCreds({
       ...regCreds,
       [name]: value,
-      email: regCreds.username,
-      description: regCreds.name,
     });
   };
 
   const handleRegFormSubmit = (e) => {
     e.preventDefault();
-    dispatch(registerAPI(regCreds));
-    // console.log(regCreds);
+    dispatch(registerAPI({ ...regCreds, userId: Date.now() }));
   };
-
-  // const { isReg } = useSelector((state) => state.register);
-
-  // useEffect(() => {
-  // 	if (isReg) {
-  // 		navigate("/otp");
-  // 	}
-  // }, [navigate, isReg]);
-
+  if (isReg) {
+    return navigate("/login");
+  }
   return (
     <>
       <NavbarRegister />
 
       <div className={style.contentRegister}>
         <LeftPane />
-
-        {/* Right pane */}
         <div>
           <div className={style.rightRegister}>
             <Box className={style.rightRegisterBox}>
@@ -83,7 +70,7 @@ const RegisterPage = () => {
               <form action="submit" onSubmit={handleRegFormSubmit}>
                 <FormControl className={style.rightRegisterForm}>
                   <div>
-                    <FormLabel htmlFor="fullName">First Name</FormLabel>
+                    <FormLabel htmlFor="fullName">Name</FormLabel>
                     <Input
                       id="fullName"
                       type="text"
@@ -94,15 +81,14 @@ const RegisterPage = () => {
                       isRequired
                     />
                   </div>
-
                   <div>
                     <FormLabel htmlFor="email">Email id</FormLabel>
                     <Input
                       id="email"
                       type="email"
                       placeholder="Tell us your Email ID"
-                      name="username"
-                      value={regCreds.username}
+                      name="email"
+                      value={regCreds.email}
                       onChange={handleRegChange}
                       isRequired
                     />
@@ -110,7 +96,6 @@ const RegisterPage = () => {
                       We'll send you relevant jobs in your mail
                     </FormHelperText>
                   </div>
-
                   <div>
                     <FormLabel htmlFor="password">Password</FormLabel>
                     <Input
@@ -126,7 +111,6 @@ const RegisterPage = () => {
                       Minimum 6 characters required
                     </FormHelperText>
                   </div>
-
                   <div>
                     <FormLabel htmlFor="mobile">Mobile Number</FormLabel>
                     <InputGroup>
@@ -144,58 +128,6 @@ const RegisterPage = () => {
                       Recruiters will call you on this number
                     </FormHelperText>
                   </div>
-
-                  <div>
-                    <FormLabel htmlFor="workStatus">Work Status</FormLabel>
-                    <Flex gap="5">
-                      <Flex
-                        gap="2"
-                        border="1px"
-                        borderColor="gray.200"
-                        borderRadius="lg"
-                        p="2"
-                      >
-                        <div>
-                          <Icon as={FaSuitcase} color="blue" />
-                        </div>
-                        <div>
-                          <Text fontSize="md" color="blue">
-                            I'm Experienced
-                          </Text>
-                          <Text fontSize="sm" color="#8d8aad">
-                            I have work experience
-                          </Text>
-                          <Text fontSize="sm" color="#8d8aad">
-                            (excluding internships)
-                          </Text>
-                        </div>
-                      </Flex>
-
-                      <Flex
-                        gap="2"
-                        border="1px"
-                        borderColor="gray.200"
-                        borderRadius="lg"
-                        p="2"
-                      >
-                        <div>
-                          <Icon as={FaBook} color="blue" />
-                        </div>
-                        <div>
-                          <Text fontSize="md" color="blue">
-                            I'm a Fresher
-                          </Text>
-                          <Text fontSize="sm" color="#8d8aad">
-                            I am a student/ Haven't
-                          </Text>
-                          <Text fontSize="sm" color="#8d8aad">
-                            worked after graduation
-                          </Text>
-                        </div>
-                      </Flex>
-                    </Flex>
-                  </div>
-
                   <div>
                     <FormLabel htmlFor="resume">Resume</FormLabel>
 
@@ -223,19 +155,6 @@ const RegisterPage = () => {
                       resume
                     </FormHelperText>
                   </div>
-
-                  <div>
-                    <Checkbox
-                      size="sm"
-                      colorScheme="orange"
-                      defaultChecked
-                      color="#8d8aad"
-                    >
-                      Send me important updates on{" "}
-                      <Icon as={RiWhatsappFill} color="green" /> WhatsApp
-                    </Checkbox>
-                  </div>
-
                   <div>
                     <Text color="#8d8aad" fontFamily="sm">
                       By clicking Register, you agree to the{" "}
@@ -246,45 +165,29 @@ const RegisterPage = () => {
                       Naukri.com
                     </Text>
                   </div>
-
                   <div>
-                    <Button
-                      colorScheme="blue"
-                      borderRadius="20"
-                      type="submit"
-                      // onClick={routeChange}
-                    >
+                    <Button colorScheme="blue" borderRadius="20" type="submit">
                       Register Now
                     </Button>
+                  </div>
+                  Already registered?
+                  <div>
+                    <Link to="/login">
+                      <Button
+                        colorScheme="blue"
+                        borderRadius="20"
+                        type="submit"
+                      >
+                        Login
+                      </Button>
+                    </Link>
                   </div>
                 </FormControl>
               </form>
             </Box>
-
-            <Box>
-              <Stack direction="row" h="250px" className={style.orGoogle}>
-                <Divider
-                  orientation="vertical"
-                  className={style.orGoogleDivider}
-                />
-                <div className={style.orGoogleDividerOR}>OR</div>
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <Text>Continue with</Text>
-                  <Button
-                    leftIcon={<FcGoogle />}
-                    colorScheme="blue"
-                    variant="outline"
-                    borderRadius="20px"
-                  >
-                    Google
-                  </Button>
-                </div>
-              </Stack>
-            </Box>
           </div>
           <FooterRegister />
         </div>
-        {/* Right pane */}
       </div>
     </>
   );

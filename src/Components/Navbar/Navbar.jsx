@@ -13,6 +13,8 @@ const Navbar = () => {
     setClick(!click);
   };
   const user = "admin";
+  const Login = false;
+
   const styleA = { left: "-100%" };
   const styleB = { left: "0%" };
   return (
@@ -61,20 +63,29 @@ const Navbar = () => {
           <div className="navIcons hide">
             <BiSearch className="sideIcons" />
           </div>
-          {user === "admin" ? (
+          {/* {user === "admin" ? (
             <div className="navIcons display">
               <Link to="/admin">
                 <RiAdminLine className="sideIcons" />
                 <p>Admin</p>
               </Link>
             </div>
-          ) : null}
-          <div className="navIcons">
-            <Link to="/profile">
-              <CgProfile className="sideIcons" />
-              <p className="display">Profile</p>
-            </Link>
-          </div>
+          ) : null} */}
+          {Login ? (
+            <div className="navIcons">
+              <Link to="/profile">
+                <CgProfile className="sideIcons" />
+                <p className="display">Profile</p>
+              </Link>
+            </div>
+          ) : (
+            <div className="navIcons">
+              <Link to="/register">
+                <CgProfile className="sideIcons" />
+                <p className="display">Login</p>
+              </Link>
+            </div>
+          )}
           <div className="navIcons">
             <Link>
               <MdOutlineNotificationsNone className="sideIcons" />

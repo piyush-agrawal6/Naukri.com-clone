@@ -1,7 +1,8 @@
 [
   {
     "title": "Urgent Hiring!!! BPO/KPO-Voice and Non Voice Executive",
-    "id":1,
+    "jobId": 1,
+    "id": "1",
     "company": "Pyramid Jobs",
     "experience": "0-1 years",
     "salary": "₹ 1,75,000 - 2,50,000 P.A.",
@@ -9,19 +10,17 @@
     "workType": "Permanent remote / WFH",
     "posted": "5 Days ago",
     "Applicants": 2345,
-    "jobDescription": {
-      "designation": "BPO/KPO-Voice and Non Voice Executive",
-      "salary": "15k to 20k",
-      "location": "Nagpur",
-      "description": "We are hiring for International BPO/KPO , Good Opportunity for Freshers with Excellent English Communication. WFH from only Nagpur location",
-      "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
-      "Role": "Customer Service",
-      "industryType": "BPO / Call Centre",
-      "functionalArea": "Customer Success, Service & Operations",
-      "employmentType": "Full Time, Permanent",
-      "roleCategory": "Customer Success, Service & Operations - Other",
-      "education": { "UG": "Any Graduate" }
-    },
+    "designation": "BPO/KPO-Voice and Non Voice Executive",
+    "wage": "15k to 20k",
+    "city": "Nagpur",
+    "description": "We are hiring for International BPO/KPO , Good Opportunity for Freshers with Excellent English Communication. WFH from only Nagpur location",
+    "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
+    "Role": "Customer Service",
+    "industryType": "BPO / Call Centre",
+    "functionalArea": "Customer Success, Service & Operations",
+    "employmentType": "Full Time, Permanent",
+    "roleCategory": "Customer Success, Service & Operations - Other",
+    "education": { "UG": "Any Graduate" },
     "keySkills": [
       "BPO",
       "KPO",
@@ -29,12 +28,12 @@
       "Call Processing",
       "International BPO",
       "Customer Service"
-       
     ]
   },
   {
     "title": "Sales Executive",
-    "id":2,
+    "jobId": 2,
+    "id": "2",
     "company": "Tushar Hr Consultancy",
     "experience": "0 - 4 years",
     "salary": "Not Disclosed",
@@ -42,21 +41,19 @@
     "workType": "Permanent remote / WFH",
     "posted": "2 Days ago",
     "Applicants": 12,
-    "jobDescription": {
-      "designation": "BPO/KPO-Voice and Non Voice Executive",
-      "salary": "15k to 20k",
-      "location": "Nagpur",
-      "description": "Renowned FMCG Company having Pan India presence are seeking Fresher to Experienced Candidates having experience of selling Home Care, Cleaning & Nonfood FMCG products sales such as Detergents, soaps , cleaning agents , etc .Candidates to have channel management experience. Freshers can also apply however they should be ready to do field sales.",
-      "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
-      "Role": "Branch Sales Executive",
-      "industryType": "FMCG",
-      "functionalArea": "Sales & Business Development",
-      "employmentType": "Full Time, Permanent",
-      "roleCategory": "Enterprise & B2B Sales",
-      "education": {
-        "UG": "B.B.A/ B.M.S in Any Specialization",
-        "PG": "MBA/PGDM in Marketing"
-      }
+    "designation": "BPO/KPO-Voice and Non Voice Executive",
+    "wage": "15k to 20k",
+    "city": "Nagpur",
+    "description": "Renowned FMCG Company having Pan India presence are seeking Fresher to Experienced Candidates having experience of selling Home Care, Cleaning & Nonfood FMCG products sales such as Detergents, soaps , cleaning agents , etc .Candidates to have channel management experience. Freshers can also apply however they should be ready to do field sales.",
+    "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
+    "Role": "Branch Sales Executive",
+    "industryType": "FMCG",
+    "functionalArea": "Sales & Business Development",
+    "employmentType": "Full Time, Permanent",
+    "roleCategory": "Enterprise & B2B Sales",
+    "education": {
+      "UG": "B.B.A/ B.M.S in Any Specialization",
+      "PG": "MBA/PGDM in Marketing"
     },
     "keySkills": [
       "Sales",
@@ -69,7 +66,8 @@
   },
   {
     "title": "Marketing Intern",
-    "id":3,
+    "jobId": 3,
+    "id": "3",
     "company": "Prosofos India",
     "experience": "0 - 1 years",
     "salary": "Not Disclosed",
@@ -77,20 +75,18 @@
     "workType": "Permanent remote / WFH",
     "posted": "3 Days ago",
     "Applicants": 132,
-    "jobDescription": {
-      "designation": "BPO/KPO-Voice and Non Voice Executive",
-      "salary": "15k to 20k",
-      "location": "Nagpur",
-      "description": "ProSofos Inc. is searching for committed and deadline-driven Junior Associates to join our team of in-house staff. You will work directly on our prominent Canadian websites. Besides, you will be working on international projects and will get ample exposure of North American Markets.",
-      "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
-      "Role": "Branch Sales Executive",
-      "industryType": "FMCG",
-      "functionalArea": "Sales & Business Development",
-      "employmentType": "Full Time, Permanent",
-      "roleCategory": "Enterprise & B2B Sales",
-      "education": {
-        "UG": "B.B.A/ B.M.S in Any Specialization"
-      }
+    "designation": "BPO/KPO-Voice and Non Voice Executive",
+    "wage": "15k to 20k",
+    "city": "Nagpur",
+    "description": "ProSofos Inc. is searching for committed and deadline-driven Junior Associates to join our team of in-house staff. You will work directly on our prominent Canadian websites. Besides, you will be working on international projects and will get ample exposure of North American Markets.",
+    "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
+    "Role": "Branch Sales Executive",
+    "industryType": "FMCG",
+    "functionalArea": "Sales & Business Development",
+    "employmentType": "Full Time, Permanent",
+    "roleCategory": "Enterprise & B2B Sales",
+    "education": {
+      "UG": "B.B.A/ B.M.S in Any Specialization"
     },
     "keySkills": [
       "Call Processing",
@@ -104,7 +100,8 @@
   },
   {
     "title": "Business Development Intern",
-    "id":4,
+    "jobId": 4,
+    "id": "4",
     "company": "Sugar Crystal Solutions",
     "experience": "0 - 1 years",
     "salary": "Not Disclosed",
@@ -112,20 +109,18 @@
     "workType": "Permanent remote / WFH",
     "posted": "2 Days ago",
     "Applicants": 18,
-    "jobDescription": {
-      "designation": "BPO/KPO-Voice and Non Voice Executive",
-      "salary": "15k to 20k",
-      "location": "Nagpur",
-      "description": "Researching business opportunities and identifying potential clients by researching ,industries and competitors",
-      "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
-      "Role": "Business Development Executive (BDE)",
-      "industryType": "Sales & Business Development",
-      "functionalArea": "IT Services & Consulting",
-      "employmentType": "Full Time, Permanent",
-      "roleCategory": "BD / Pre Sales",
-      "education": {
-        "UG": "Any Graduate"
-      }
+    "designation": "BPO/KPO-Voice and Non Voice Executive",
+    "wage": "15k to 20k",
+    "city": "Nagpur",
+    "description": "Researching business opportunities and identifying potential clients by researching ,industries and competitors",
+    "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
+    "Role": "Business Development Executive (BDE)",
+    "industryType": "Sales & Business Development",
+    "functionalArea": "IT Services & Consulting",
+    "employmentType": "Full Time, Permanent",
+    "roleCategory": "BD / Pre Sales",
+    "education": {
+      "UG": "Any Graduate"
     },
     "keySkills": [
       "Business development",
@@ -136,7 +131,8 @@
   },
   {
     "title": "Customer Service Associate @ JP Morgan",
-    "id":5,
+    "jobId": 5,
+    "id": "5",
     "company": "Aviate Education",
     "experience": "0 - 5 years",
     "salary": "₹ 4,00,000 - 8,00,000 P.A.",
@@ -144,20 +140,18 @@
     "workType": "Permanent remote / WFH",
     "posted": "3 Days ago",
     "Applicants": 54318,
-    "jobDescription": {
-      "designation": "Customer Service Associate @ JP Morgan",
-      "salary": "20k to 25k",
-      "location": "Bengaluru",
-      "description": "The process is an International process includes Voice and Non-Voice .The role would be resolving customer queries via chat and calls as well as upselling the services of clients to existing customers",
-      "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
-      "Role": "Customer Service",
-      "industryType": "BPO / Call Centre",
-      "functionalArea": "Customer Success, Service & Operations",
-      "employmentType": "Full Time, Permanent",
-      "roleCategory": "Customer Success, Service & Operations - Other",
-      "education": {
-        "UG": "Any Graduate"
-      }
+    "designation": "Customer Service Associate @ JP Morgan",
+    "wage": "20k to 25k",
+    "city": "Bengaluru",
+    "description": "The process is an International process includes Voice and Non-Voice .The role would be resolving customer queries via chat and calls as well as upselling the services of clients to existing customers",
+    "candidate": "Any Graduate , Freshers can also apply , Fluent English Communication , Only Nagpur Location",
+    "Role": "Customer Service",
+    "industryType": "BPO / Call Centre",
+    "functionalArea": "Customer Success, Service & Operations",
+    "employmentType": "Full Time, Permanent",
+    "roleCategory": "Customer Success, Service & Operations - Other",
+    "education": {
+      "UG": "Any Graduate"
     },
     "keySkills": [
       "international",

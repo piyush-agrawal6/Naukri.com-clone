@@ -1,58 +1,53 @@
-.jobs-1{
-     
-   padding: 50px;
-   /* margin-top: 50px; */
-   /* border: 1px solid black; */
-   display: flex;
-   justify-content: space-between;
-   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+.jobs-1 {
+  padding: 50px;
+  /* margin-top: 50px; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.Icons-bag{
+.Icons-bag {
   color: rgb(100, 100, 252);
   font-size: 30px;
 }
-.recomend{
-  display:flex;
-   margin-top:40px;
+.recomend {
+  display: flex;
+  margin-top: 40px;
 }
 
-.job-text{
+.job-text {
   font-size: 22px;
   color: rgb(97, 89, 89);
   font-weight: 600;
 }
 
-.select{
-    margin-top: 40px;
-    font-size: 15px;
-    font-weight: 500;
-     
+.select {
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 500;
 }
-.select Button{
+.select Button {
   margin-left: 10px;
 }
-.posting-jobs{
-
-   
+.posting-jobs {
   /* border: 1px solid black; */
   height: 1350px;
   display: flex;
 }
 
-.section-1{
+.section-1 {
   width: 65%;
   /* border: 1px solid red; */
   height: 1350px;
-   
 }
 
-.section-2{
+.section-2 {
   width: 35%;
   /* border: 1px solid green; */
   height: 1200px;
 }
 
-.manage-jobs{
+.manage-jobs {
   height: 160px;
   width: 90%;
   border: 1px solid gray;
@@ -61,488 +56,459 @@
   border-radius: 5px;
   display: flex;
 }
-.cyber{
+.cyber {
   height: 100px;
   width: 180px;
   /* border: 1px solid gray;   */
 }
 
-.job-prefence{
+.job-prefence {
   font-size: 17px;
   font-weight: 500;
 }
-.Link{
-  color:#4A90E2;
+.Link {
+  color: #4a90e2;
   font-weight: 500;
 }
 
-.job-criteria{
-
+.job-criteria {
   height: 220px;
   width: 95%;
   margin: auto;
   /* border: 1px solid gray;  */
   margin-top: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.add-prefer{
+.add-prefer {
   height: 80px;
   display: flex;
 }
-.add-prefer h2{
-   font-size: 16px;
-   font-weight: 500;
-   margin-left: 20px;
-   margin-top: 15px;
+.add-prefer h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 15px;
 }
-.email-market{
+.email-market {
   height: 100px;
   width: 180px;
   /* border: 1px solid gray;  */
   margin-right: 22px;
   margin-top: 20px;
 }
-.outline{
-   
+.outline {
   display: flex;
   margin-top: 5px;
   /* border: 1px solid black; */
   margin-top: 12px;
-  
-
 }
 
-.add-icons{
-  color: #4A90E2;
+.add-icons {
+  color: #4a90e2;
   font-size: 25px;
   font-weight: 700;
   margin-left: 10px;
 }
-.total-jobs{
+.total-jobs {
   font-size: 17px;
   font-weight: 600;
   margin-left: 40px;
   margin-top: 20px;
 }
-.job-data{
+.job-data {
   height: 200px;
   width: 90%;
   /* border: 1px solid black; */
   margin: auto;
   margin-top: 20px;
   border-radius: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.data-marked{
-
+.job-skills {
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 4px 10px;
+}
+.data-marked {
   /* border: 1px solid black; */
   display: flex;
   width: 90%;
   margin: auto;
-  
-   
 }
-.data-marked input{
+.data-marked input {
   margin-top: 18px;
 }
-.data-marked h2{
+.data-marked h2 {
   margin-top: 19px;
   font-size: 17px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 25px;
 }
-.company-jobs{
+.company-jobs {
   width: 84%;
   margin: auto;
 }
-.education{
+.education {
   width: 84%;
   margin: auto;
   /* border: 1px solid black; */
   display: flex;
 }
-.icons-experience{
+.icons-experience {
   margin-top: 8px;
 }
-.education ul{
+.education ul {
   font-size: 12px;
   margin-left: 10px;
   margin-top: 5px;
 }
-.loc-icon{
-
+.loc-icon {
   margin-top: 2px;
 }
-.text-outline{
+.text-outline {
   width: 84%;
   margin: auto;
   /* border: 1px solid black; */
   display: flex;
-   gap: 3px;
+  gap: 3px;
   font-size: 12px;
 }
 
-.keyskill{
-  display:"flex";
-   
-  width: 84%;
+.keyskill {
+  display: "flex";
+  flex-wrap: wrap;
+  width: 86%;
   margin: auto;
-   
+  margin-top: 10px;
 }
-.keyskill ul{
+.keyskill ul {
   margin-top: 5px;
   font-size: 14px;
 }
 
-.time-btn{
-    width: 85%;
-    margin: auto;
-    /* border: 1px solid black; */
-    margin-top: 8px;
-     
-}
-  .time-btn Button{
-    font-size: 12px;
-     
-  }
- 
-
-@media all and  (min-width: 451px) and (max-width:900px){
-  .section-2{
-      display: none;
-  }
-  .section-1{
-      width: 100%;
-      /* border: 1px solid red; */
-      height:  auto;
-       
-  }
-  .jobs-1{
-   
-      padding: 60px;
-      /* margin-top: 50px; */
-      /* border: 1px solid black; */
-       
-       
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-  .recomend{
-       /* border: 1px solid black; */
-       margin-top:40px;
-        
-  }
-  .select{
-      margin-top: 40px;
-      font-size: 10px;
-      font-weight: 500;
-       
-}
-.posting-jobs{
-
-   
+.time-btn {
+  width: 85%;
+  margin: auto;
   /* border: 1px solid black; */
-  height: auto;
-   
+  margin-top: 8px;
 }
-.select Button{
-  size: 20px;
-  margin-left: 10px;
+.time-btn Button {
+  font-size: 12px;
 }
-  .Icons-bag{
-      color: rgb(100, 100, 252);
-      font-size: 20px;
-  }
-  .job-text{
-      font-size: 15px;
-      color: rgb(97, 89, 89);
-      font-weight: 600;
-  }
-  .job-prefence{
-      font-size: 15px;
-      font-weight: 600;
-  }
-  .match-criteria{
-      font-size: 8px;
-  }
-  .total-jobs{
-      font-size: 12px;
-      font-weight: 600;
-      margin-left: 40px;
-      margin-top: 20px;
-  }
 
-  .add-prefer{
-      height: 50px;
-      display: flex;
+@media all and (min-width: 451px) and (max-width: 900px) {
+  .section-2 {
+    display: none;
   }
-  .add-prefer h2{
-      font-size: 8px;
-      font-weight: 500;
-      margin-left: 20px;
-      margin-top: 15px;
+  .section-1 {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
   }
-
-  .add-icons{
-      color: #4A90E2;
-      font-size: 8px;
-      font-weight: 700;
-      margin-left: 10px;
-      margin-top: 2px;
-  }
-  .Link{
-      color: #4A90E2;
-      font-weight: 500;
-      font-size: 8px;
-  }
-  .manage-jobs{
-      height: 130px;
-      width: 90%;
-      border: 1px solid gray;
-      margin: auto;
-      margin-top: 30px;
-      border-radius: 5px;
-      display: flex;
-  }
-  .job-criteria{
-
-      height: auto;
-      width: 95%;
-      margin: auto;
-      /* border: 1px solid gray;  */
-      margin-top: 30px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-  .outline{
-   
-      display: flex;
-      margin-top: 10px;
-      /* border: 1px solid black; */
-      margin-top: 12px;
-      
-  
-  }
-  .add-prefer{
-      height: 60px;
-      display: flex;
-      
-  }
-  .cyber{
-      height: 60px;
-      width: 100px;
-      /* border: 1px solid gray; */  
-  }
-
-  .job-data{
-      height:  auto;
-      width: 90%;
-      /* border: 1px solid black; */
-      margin: auto;
-      margin-top: 20px;
-      border-radius: 5px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-
-  .data-marked h2{
-      margin-top: 19px;
-      font-size: 10px;
-      font-weight: 700;
-      margin-left: 10px;
-  }
-  .company-jobs{
-      width: 77%;
-      margin: auto;
-      font-size: 10px;
-  }
-  .education ul{
-      font-size: 8px;
-  }
-  .text-outline{
-      font-size: 8px;
-  }
-
-  .keyskill ul{
-      margin-top: 5px;
-      font-size: 8px;
-  }
-  .time-btn{
-    width: 85%;
-    margin: auto;
+  .jobs-1 {
+    padding: 60px;
+    /* margin-top: 50px; */
     /* border: 1px solid black; */
-     
-     
-}
-  .time-btn Button{
-    font-size: 8px;
-     
-  }
-}
 
-@media all and  (min-width: 100px) and (max-width:450px){
-  .section-2{
-      display: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
-  .section-1{
-      width: 100%;
-      /* border: 1px solid red; */
-      height: auto;
-       
+  .recomend {
+    /* border: 1px solid black; */
+    margin-top: 40px;
   }
-  .jobs-1{
-   
-      padding: 50px;
-      /* margin-top: 50px; */
-      /* border: 1px solid black; */
-       
-       
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  .select {
+    margin-top: 40px;
+    font-size: 10px;
+    font-weight: 500;
   }
-  .posting-jobs{
-
-   
+  .posting-jobs {
     /* border: 1px solid black; */
     height: auto;
-     
   }
-  .recomend{
-       
-       margin-top:40px;
+  .select Button {
+    size: 20px;
+    margin-left: 10px;
   }
-  .select{
-      margin-top: 40px;
-      font-size: 8px;
-      font-weight: 500;
-       
-}
-.select Button{
-   
-  margin-left: 10px;
-}
-  .Icons-bag{
-      color: rgb(100, 100, 252);
-      font-size: 10px;
+  .Icons-bag {
+    color: rgb(100, 100, 252);
+    font-size: 20px;
   }
-  .job-text{
-      font-size: 10px;
-      color: rgb(97, 89, 89);
-      font-weight: 600;
+  .job-text {
+    font-size: 15px;
+    color: rgb(97, 89, 89);
+    font-weight: 600;
   }
-
-  .job-prefence{
-      font-size: 8px;
-      font-weight: 600;
+  .job-prefence {
+    font-size: 15px;
+    font-weight: 600;
   }
-  .match-criteria{
-      font-size: 5px;
+  .match-criteria {
+    font-size: 8px;
   }
-  .total-jobs{
-      font-size: 8px;
-      font-weight: 600;
-      margin-left: 40px;
-      margin-top: 20px;
+  .total-jobs {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 20px;
   }
 
-  .add-prefer{
-      height: 7px;
-      display: flex;
+  .add-prefer {
+    height: 50px;
+    display: flex;
   }
-  .add-prefer h2{
-      font-size: 5px;
-      font-weight: 500;
-      margin-left: 20px;
-      margin-top: 15px;
-  }
-
-  .add-icons{
-      color: #4A90E2;
-      font-size: 8px;
-      font-weight: 700;
-      margin-left: 10px;
-      margin-top: 2px;
-  }
-  .Link{
-      color: #4A90E2;
-      font-weight: 500;
-      font-size: 5px;
-  }
-  .job-criteria{
-
-      height: auto;
-      width: 95%;
-      margin: auto;
-      /* border: 1px solid gray;  */
-      margin-top: 30px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-  .outline{
-   
-      display: flex;
-      margin-top: 10px;
-      /* border: 1px solid black; */
-      margin-top: 12px;
-      
-  
-  }
-  .add-prefer{
-      height: 60px;
-      display: flex;
-      
+  .add-prefer h2 {
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 15px;
   }
 
-  .job-data{
-      height:  auto;
-      width: 90%;
-      /* border: 1px solid black; */
-      margin: auto;
-      margin-top: 20px;
-      border-radius: 5px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  .add-icons {
+    color: #4a90e2;
+    font-size: 8px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .Link {
+    color: #4a90e2;
+    font-weight: 500;
+    font-size: 8px;
+  }
+  .manage-jobs {
+    height: 130px;
+    width: 90%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+  }
+  .job-criteria {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid gray;  */
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .outline {
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    margin-top: 12px;
+  }
+  .add-prefer {
+    height: 60px;
+    display: flex;
+  }
+  .cyber {
+    height: 60px;
+    width: 100px;
+    /* border: 1px solid gray; */
   }
 
-  .data-marked h2{
-      margin-top: 19px;
-      font-size: 7px;
-      font-weight: 700;
-      margin-left: 10px;
+  .job-data {
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
-  .company-jobs{
-      width: 70%;
-      margin: auto;
-      font-size: 8px;
+
+  .data-marked h2 {
+    margin-top: 19px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 10px;
   }
-  .education ul{
-      font-size: 5px;
+  .company-jobs {
+    width: 77%;
+    margin: auto;
+    font-size: 10px;
   }
-  .text-outline{
-      font-size: 5px;
+  .education ul {
+    font-size: 8px;
   }
-  .icons-experience{
-      margin-top: 4px;
-      font-size: 8px;
+  .text-outline {
+    font-size: 8px;
   }
-  .manage-jobs{
-      height: 100px;
-      width: 90%;
-      border: 1px solid gray;
-      margin: auto;
-      margin-top: 30px;
-      border-radius: 5px;
-      display: flex;
+
+  .keyskill ul {
+    margin-top: 5px;
+    font-size: 8px;
   }
-  .keyskill ul{
-      margin-top: 5px;
-      font-size: 5px;
-  }
-  .time-btn{
+  .time-btn {
     width: 85%;
     margin: auto;
     /* border: 1px solid black; */
-     
-     
+  }
+  .time-btn Button {
+    font-size: 8px;
+  }
 }
-  .time-btn Button{
+
+@media all and (min-width: 100px) and (max-width: 450px) {
+  .section-2 {
+    display: none;
+  }
+  .section-1 {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
+  }
+  .jobs-1 {
+    padding: 50px;
+    /* margin-top: 50px; */
+    /* border: 1px solid black; */
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .posting-jobs {
+    /* border: 1px solid black; */
+    height: auto;
+  }
+  .recomend {
+    margin-top: 40px;
+  }
+  .select {
+    margin-top: 40px;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .select Button {
+    margin-left: 10px;
+  }
+  .Icons-bag {
+    color: rgb(100, 100, 252);
+    font-size: 10px;
+  }
+  .job-text {
+    font-size: 10px;
+    color: rgb(97, 89, 89);
+    font-weight: 600;
+  }
+
+  .job-prefence {
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .match-criteria {
+    font-size: 5px;
+  }
+  .total-jobs {
+    font-size: 8px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .add-prefer {
+    height: 7px;
+    display: flex;
+  }
+  .add-prefer h2 {
+    font-size: 5px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .add-icons {
+    color: #4a90e2;
+    font-size: 8px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .Link {
+    color: #4a90e2;
+    font-weight: 500;
+    font-size: 5px;
+  }
+  .job-criteria {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid gray;  */
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .outline {
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    margin-top: 12px;
+  }
+  .add-prefer {
+    height: 60px;
+    display: flex;
+  }
+
+  .job-data {
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .data-marked h2 {
+    margin-top: 19px;
+    font-size: 7px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .company-jobs {
+    width: 70%;
+    margin: auto;
+    font-size: 8px;
+  }
+  .education ul {
+    font-size: 5px;
+  }
+  .text-outline {
+    font-size: 5px;
+  }
+  .icons-experience {
+    margin-top: 4px;
+    font-size: 8px;
+  }
+  .manage-jobs {
+    height: 100px;
+    width: 90%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+  }
+  .keyskill ul {
+    margin-top: 5px;
+    font-size: 5px;
+  }
+  .time-btn {
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+  .time-btn Button {
     font-size: 6px;
-     
-      padding: 1px 1px;
+
+    padding: 1px 1px;
   }
 }
