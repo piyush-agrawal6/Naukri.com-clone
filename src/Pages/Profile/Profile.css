@@ -1,14 +1,92 @@
 .profile {
-  padding-top: 6rem;
+  width: 100vw;
+  padding: 6rem 0;
 }
-.profileBox {
-  width: 60%;
-  margin: auto;
-  border: 1px solid black;
-  height: 100vh;
+.profileCon {
+  width: 650px;
+  border: 1px solid rgb(207, 207, 207);
+  margin: 5rem auto;
+  padding: 1rem;
 }
 .profileImage {
-  width: 100%;
-  background-color: #4a90e2;
-  height: 100px;
+  background-color: rgb(243, 243, 243);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileImage img {
+  width: 25%;
+}
+.profileImage p {
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+}
+.profileImage button {
+  font-size: 12px;
+  border: 1px solid rgb(52, 52, 52);
+  padding: 5px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(54, 54, 54);
+}
+.profileDetails h3 {
+  padding: 1rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(162, 162, 162);
+  color: rgb(21, 21, 21);
+  margin: 1.5rem;
+}
+.profileDetails > div {
+  display: flex;
+  margin: 1.5rem;
+  color: rgb(114, 114, 114);
+}
+.profileDetails > div > p:nth-child(1) {
+  width: 40%;
+}
+@media (max-width: 700px) {
+  .profile {
+    padding: 4rem 0;
+  }
+  .profileCon {
+    width: 420px;
+    margin: 3rem auto;
+  }
+  .profileImage {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .profileDetails > div {
+    gap: 40px;
+  }
+  .profileDetails > div > p:nth-child(1) {
+    width: 45%;
+  }
+}
+@media (max-width: 450px) {
+  .profile {
+    padding: 3rem 0;
+  }
+  .profileCon {
+    width: 350px;
+    margin: 4rem auto;
+    padding: 0;
+  }
+  .profileDetails h3 {
+    padding: 0.5rem 0;
+    margin: 0.5rem 1rem;
+    font-size: 16px;
+  }
+  .profileDetails > div {
+    margin: 0.5rem 1rem;
+    font-size: 13px;
+    gap: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .profileCon {
+    width: 280px;
+  }
 }
