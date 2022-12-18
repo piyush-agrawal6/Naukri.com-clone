@@ -101,7 +101,8 @@ const Company = () => {
           </div>
           <hr />
         </div>
-        {/* companies list */}
+ 
+ 
         <div className="comp_showlist">
           <div className="comp_div">
 

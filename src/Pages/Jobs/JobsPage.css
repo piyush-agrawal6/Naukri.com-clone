@@ -1,5 +1,541 @@
 .jbpages{
-    padding: 80px;
-    /* border: 1px solid  black; */
+    padding: 5rem;
     background-color: #D4E5FF;
+     
+    
+    
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid  black;  */
+    margin-top: -50px;
+    display: flex;
+}
+.cont-1{
+
+    width: 65%;
+    height: auto;
+    /* border: 1px solid  black;  */
+}
+.cont-2{
+
+    width: 30%;
+    height:  auto;
+    /* border: 1px solid  red;  */
+}
+.job-detail{
+
+    height: 230px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid  red;  */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    line-height: 30px;
+}
+
+.job-detail h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 45px;
+     
+}
+.job-review{
+    display: flex;
+    width: 88%;
+    margin: auto;
+}
+ 
+.review{
+     font-size: 18px;
+    color: blue;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.experience{
+    display: flex;
+    width: 76%;
+    margin: auto;
+}
+.exper-bag{
+    font-size: 15px;
+    margin-top: 5px;
+    color: gray;
+}
+.experience ul{
+    font-size: 12px;
+    margin-left: 6px;
+     
+    color: gray;
+
+}
+.salary{
+    display: flex;
+    width: 76%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.salary-icon{
+    color: gray;
+    margin-top: 6px;
+}
+.salary ul{
+    font-size: 12px;
+    margin-left: 6px;
+     
+    color: gray;
+}
+.save{
+    height: 130px;
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    display: flex;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    /* border: 1px solid black */
+}
+.part-1{
+    height: 130px;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.part-2{
+    height: 130px;
+    width: 58%;
+    /* border: 1px solid black; */
+}
+.Apply-btn{
+     gap: 20px;
+    margin-top: 80px;
+     margin-left: 90px;
+     /* border: 1px solid black; */
+}
+
+.btn-aply{
+    margin-left: 40px;
+    
+     color:white;
+     background-color: #4A90E2;
+     
+     padding: 5px 25px;
+     
+     
+}
+.save-btn{
+    border: 1px solid #4A90E2 ;
+    padding: 5px 20px;
+    color:#4A90E2;
+    font-size: 15px;
+    font-weight: 500;
+}
+.applicants{
+    display: flex;
+}
+
+.posted{
+    border: 1px solid  rgb(212, 212, 212);
+    height: 20px;
+    width: 20%;
+    margin-top: 10px;
+    display: flex;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.post-text{
+    font-size: 12px;
+    margin-left: 50px;
+    color: rgb(212, 212, 212);
+    margin-top: -5px;
+}
+.post-day{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.posted-totalapplicant{
+    
+    height: 25px;
+    width: 20%;
+    margin-top: 10px;
+    display: flex;
+}
+.post-total{
+    font-size: 12px;
+    margin-top: -5px;
+    color: gray;
+    margin-left: 2px;
+}
+.post-job{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.description-container{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+ 
+ 
+.role{
+    
+    width: 90%;
+    line-height: 25px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+    /* color: #463D39; */
+}
+.roles-container h2{
+    width: 93%;
+    font-size: 16px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20px;
+}
+ .desc-job{
+    margin-left: 30px;
+    font-size: 14px;
+    color: #463D39;
+ }
+ .Ed-tech{
+    width: 90%;
+    line-height: 25px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+ }
+
+ .skill-suggest{
+    height: 420px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+    background-color: white;
+     border: 1px solid white;
+ }
+ .naukri-learn{
+    height: 30px;
+    width: 20%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+ .course-suggest{
+    height: 150px;
+    width: 90%;
+    border: 1px solid rgb(212, 212, 212);
+    margin: auto;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+ .course-suggest h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(53, 46, 46);
+ }
+
+ .course-suggest ul{
+    font-size: 14px;
+    color: gray;
+ }
+ .course-suggest h3{
+    font-size: 13px;
+    margin-top: 35px;
+    font-weight: 700;
+    color: rgb(53, 46, 46);
+ }
+ .data-analyst{
+     height: 60px;
+     width: 90%;
+     border: 1px solid rgb(212, 212, 212);
+     margin: auto;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+ }
+ .data-analyst h3{
+    font-size: 13px;
+    margin-top: 17px;
+    font-weight: 700;
+    color: rgb(53, 46, 46);
+}
+.data-analyst ul{
+    font-size: 14px;
+    color: gray;
+}
+.paid{
+    color:rgb(212, 212, 212) ; 
+    margin-top: 8px;  
+    margin-left: 20px;
+    font-size: 14px;
+}
+@media all and  (min-width: 451px) and (max-width:900px){
+    .cont-1{
+
+        width: 100%;
+        height: auto;
+        /* border: 1px solid  black;  */
+    }
+    .cont-2{
+        display: none;
+    }
+     
+    .job-detail{
+
+        height: 250px;
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid  red;  */
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        line-height: 25px;
+    }
+
+    .job-detail h2{
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 40px;
+
+         
+    }
+    .job-review{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        /* border: 1px solid  red; */
+    }
+    .job-review ul{
+        font-size: 12px;
+    }
+  
+
+    .part-1{
+        height: 130px;
+        width: 60%;
+        /* border: 1px solid black; */
+    }
+    .part-2{
+        height: 130px;
+        width: 35%;
+        /* border: 1px solid brown; */
+    }
+    .Apply-btn{
+        gap: 20px;
+       margin-top: 20px;
+        margin-left: 10px;
+        /* border: 1px solid black; */
+        display: flex;
+   }
+     
+    .btn-aply{
+        margin-left: 5px;
+        
+         color:white;
+         background-color: #4A90E2;
+         
+         padding: 5px 15px;
+         
+         
+    }
+    .save-btn{
+        border: 1px solid #4A90E2 ;
+        padding: 5px 10px;
+        color:#4A90E2;
+        font-size: 15px;
+        font-weight: 500;
+        
+    }
+    .posted{
+        border: 1px solid  rgb(212, 212, 212);
+        height: 20px;
+        width: 30%;
+        margin-top: 10px;
+        display: flex;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        /* border: 1px solid  black;  */
+    }
+    .post-text{
+        font-size: 10px;
+        margin-left: 10px;
+        color: rgb(212, 212, 212);
+        margin-top: -5px;
+    }
+    .post-day{
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: -5px;
+ 
+    }
+
+    .posted-totalapplicant{
+    
+        height: 25px;
+        width: 30%;
+        margin-top: 10px;
+        display: flex;
+        /* border: 1px solid  black;   */
+    }
+    .post-total{
+        font-size: 10px;
+        margin-top: -5px;
+        color: gray;
+        margin-left: 2px;
+    }
+    .post-job{
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: -5px;
+    }
+
+}
+
+@media all and  (min-width: 250px) and (max-width:450px){
+    .cont-1{
+
+        width: 100%;
+        height: auto;
+        /* border: 1px solid  black;  */
+    }
+    .cont-2{
+        display: none;
+    }
+     
+    .job-detail{
+
+        height: 250px;
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid  red;  */
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        line-height: 20px;
+    }
+
+    .job-detail h2{
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 50px;
+
+         
+    }
+    .job-review{
+        display: flex;
+        width: 75%;
+        margin: auto;
+        /* border: 1px solid  red; */
+    }
+    .job-review ul{
+        font-size: 12px;
+    }
+    .save{
+        height: 180px;
+        width: 100%;
+        flex-direction: column;
+        border: 1px solid rgb(212, 212, 212);
+        border-left: none;
+        border-right: none;
+        
+        border-top: none;
+        /* border: 1px solid black; */
+         
+    }
+
+    .part-1{
+        height: 130px;
+        width: 100%;
+        /* border: 1px solid black; */
+        line-height: 30px;
+    }
+    .part-2{
+        height: 80px;
+        width: 40%;
+        /* border: 1px solid brown; */
+        margin-left: 30px;
+        
+    }
+    .Apply-btn{
+        gap: 20px;
+       margin-top: 5px;
+        margin-left: 15px;
+        /* border: 1px solid black; */
+        display: flex;
+   }
+     
+    .btn-aply{
+        margin-left: 1px;
+        
+         color:white;
+         background-color: #4A90E2;
+         
+         padding: 3px 4px;
+         
+         
+    }
+    .save-btn{
+        border: 1px solid #4A90E2 ;
+        padding: 3px 2px;
+        color:#4A90E2;
+        font-size: 15px;
+        font-weight: 500;
+        
+    }
+    .posted{
+        border: 1px solid  rgb(212, 212, 212);
+        height: 20px;
+        width: 30%;
+        margin-top: 10px;
+        display: flex;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        /* border: 1px solid  black;  */
+    }
+    .post-text{
+        font-size: 8px;
+        margin-left: 10px;
+        color: rgb(212, 212, 212);
+        margin-top: -5px;
+    }
+    .post-day{
+        font-size: 9px;
+        font-weight: 600;
+        margin-top: -5px;
+ 
+    }
+
+    .posted-totalapplicant{
+    
+        height: 25px;
+        width: 30%;
+        margin-top: 10px;
+        display: flex;
+        /* border: 1px solid  black;   */
+    }
+    .post-total{
+        font-size: 9px;
+        margin-top: -5px;
+        color: gray;
+        margin-left: 2px;
+    }
+    .post-job{
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: -5px;
+    }
+
 }
