@@ -1,0 +1,29 @@
+.adminPanel {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 5rem 0;
+}
+.adminPanel > a > div {
+  background-color: rgb(242, 242, 242);
+}
+.adminPanel > a > div h2 {
+  font-size: 26px;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgb(144, 144, 144);
+  font-weight: 500;
+}
+.adminPanel > a > div p {
+  font-size: 18px;
+  padding: 1rem 2rem;
+}
+.adminPanel > a > div span {
+  font-size: 68px;
+  color: rgb(83, 152, 237);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

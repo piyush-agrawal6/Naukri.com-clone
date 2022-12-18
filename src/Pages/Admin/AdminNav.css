@@ -1,0 +1,12 @@
+.adminNav {
+  background-color: rgb(83, 152, 237);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.adminNav > a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 19px;
+}

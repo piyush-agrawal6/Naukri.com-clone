@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { BiSearch } from "react-icons/bi";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { MdClose, MdOutlineNotificationsNone } from "react-icons/md";
+import { MdClose, MdOutlineLogout } from "react-icons/md";
 import { RiAdminLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 
@@ -40,9 +40,9 @@ const Navbar = () => {
               <li className="menuItem" onClick={handleClick}>
                 <Link to="/company">Companies</Link>
               </li>
-              <li className="menuItem" onClick={handleClick}>
-                <Link>Services</Link>
-              </li>
+              {/* <li className="menuItem" onClick={handleClick}>
+                <Link>Creators</Link>
+              </li> */}
               <p className="mobItem" onClick={handleClick}>
                 <Link to="/register">Login / Signup</Link>
               </p>
@@ -63,14 +63,14 @@ const Navbar = () => {
           <div className="navIcons hide">
             <BiSearch className="sideIcons" />
           </div>
-          {/* {user === "admin" ? (
+          {user === "admin" ? (
             <div className="navIcons display">
               <Link to="/admin">
                 <RiAdminLine className="sideIcons" />
                 <p>Admin</p>
               </Link>
             </div>
-          ) : null} */}
+          ) : null}
           {Login ? (
             <div className="navIcons">
               <Link to="/profile">
@@ -87,10 +87,9 @@ const Navbar = () => {
             </div>
           )}
           <div className="navIcons">
-            <Link>
-              <MdOutlineNotificationsNone className="sideIcons" />
-              <span>1</span>
-              <p className="display">Notification</p>
+            <Link to="/register">
+              <MdOutlineLogout className="sideIcons" />
+              <p className="display">Logout</p>
             </Link>
           </div>
           <div className="navIcons hamburger">
