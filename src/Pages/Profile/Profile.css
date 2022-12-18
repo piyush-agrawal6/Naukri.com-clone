@@ -1,0 +1,14 @@
+.profile {
+  padding-top: 6rem;
+}
+.profileBox {
+  width: 60%;
+  margin: auto;
+  border: 1px solid black;
+  height: 100vh;
+}
+.profileImage {
+  width: 100%;
+  background-color: #4a90e2;
+  height: 100px;
+}

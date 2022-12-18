@@ -46,6 +46,31 @@
 .homeDiv > div {
   width: 49%;
 }
+.homeProfileImg {
+  width: 100%;
+}
+.homeProfileImg > img {
+  width: 70px;
+  margin: auto;
+  padding: 1rem 0;
+}
+.homeProfileName {
+  text-align: center;
+  line-height: 28px;
+}
+.homeProfileName h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.homeProfileName h3 {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgb(22, 182, 236);
+  color: white;
+  margin: 10px auto;
+  width: 60%;
+  padding: 4px;
+}
 @media (max-width: 940px) {
   .home {
     padding: 5rem 0 1rem 0;

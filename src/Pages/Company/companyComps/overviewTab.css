@@ -1,0 +1,20 @@
+.jobs_div{
+    margin-left: 20px;
+}
+.jobs_div>ul{
+    list-style-type: disc;
+}
+.jobs_div>ul>li{
+    padding: 5px 0px;
+}
+.over_tabs>button{
+    font-weight: bold;
+}
+.over_div>b{
+    font-size: 20px;
+}
+.over_div>p{
+    font-size: 16px;
+    font-style: italic;
+    margin-right: 80px;
+}

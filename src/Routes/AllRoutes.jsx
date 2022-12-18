@@ -4,8 +4,10 @@ import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Admin from "../Pages/Admin/Admin";
 import Company from "../Pages/Company/Company";
+import CompanyPage from "../Pages/Company/CompanyPage";
 import Home from "../Pages/Home/Home";
 import Jobs from "../Pages/Jobs/Jobs";
+import JobsPage from "../Pages/Jobs/JobsPage";
 import Login from "../Pages/Login/Login";
 import Profile from "../Pages/Profile/Profile";
 import Register from "../Pages/Register/Register";
@@ -21,6 +23,7 @@ const AllRoutes = () => {
         <Route path="/jobs" element={<Jobs />}></Route>
         <Route path="/jobspage/:id" element={<JobsPage/>}></Route>
         <Route path="/company" element={<Company />}></Route>
+        <Route path="/companypage/:id" element={<CompanyPage />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/admin" element={<Admin />}></Route>
       </Routes>
