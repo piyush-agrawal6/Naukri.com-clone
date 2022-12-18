@@ -121,7 +121,7 @@ const JobsPage = ( ) => {
                      <h3>General Management</h3>
                        <ul>9200+ top rated corses for career growth</ul>
                   </div>
-                   <ul className='paid'>May include paid service </ul>
+                   <ul className='paid'>May include paid service</ul>
                </div>
              </div>
          </div>
