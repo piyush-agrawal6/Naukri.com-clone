@@ -7,12 +7,12 @@ import {
 
 import thunk from "redux-thunk";
 import { authReducer } from "./Auth/reducer";
-// import { companyReducer } from "./Companies/reducer";
+import { companyReducer } from "./Companies/reducer";
 import { jobReducer } from "./Jobs/reducer";
 
 const rootReducer = combineReducers({
   auth: authReducer,
-  // company: companyReducer,
+  company: companyReducer,
   job: jobReducer,
 });
 

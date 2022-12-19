@@ -12,7 +12,6 @@ const ComapnyCard = ({
   id,
 }) => {
   return (
-    // <Link to={`/companypage/${id}`}>
     <div className="company_card">
       <img className="logo_image" src={logo} alt={title} />
       <Link to={`/companypage/${id}`}>
@@ -31,7 +30,6 @@ const ComapnyCard = ({
         </div>
       </Link>
     </div>
-    // </Link>
   );
 };
 

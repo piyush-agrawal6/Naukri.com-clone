@@ -1,7 +1,7 @@
 [
     {
         "title": "Hitachi",
-        "id":1,
+        "id":"1",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Inspire the Next",
         "rating": "4.0",
@@ -16,11 +16,12 @@
         "comp_type":"Private",
         "founded":"1910 (112 yrs old)",
         "company_size":"100001+",
-        "website":"https://www.hitachi.com/"
+        "website":"https://www.hitachi.com/",
+        "companyId":"1"
     },
     {
         "title": "Tata International",
-        "id":2,
+        "id":"2",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Power the life",
         "rating": "4.0",
@@ -35,11 +36,12 @@
         "comp_type":"Public",
         "founded":"1962 (60 yrs old)",
         "company_size":"500000-1000000",
-        "website":"not available"
+        "website":"not available",
+        "companyId":"2"
     },
     {
         "title": "Metropolis Healthcare",
-        "id":3,
+        "id":"3",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Power the Health",
         "rating": "4.0",
@@ -54,11 +56,12 @@
         "comp_type":"Private",
         "founded":"1980 (42 yrs old)",
         "company_size":"10001-5000",
-        "website":"not available"
+        "website":"not available",
+        "companyId":"3"
     },
     {
         "title": "Infosys",
-        "id":4,
+        "id":"4",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Powered by Intellect. Driven by Values",
         "rating": "3.9",
@@ -73,11 +76,12 @@
         "comp_type":"Public",
         "founded":"1981 (41 yrs old)",
         "company_size":"100001+",
-        "website":"https://www.infosys.com/"
+        "website":"https://www.infosys.com/",
+        "companyId":"4"
     },
     {
         "title": "DMart",
-        "id":5,
+        "id":"5",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Driven by Values",
         "rating": "3.9",
@@ -92,11 +96,12 @@
         "comp_type":"Private",
         "founded":"2000 (41 yrs old)",
         "company_size":"1001-5000",
-        "website":"not available"
+        "website":"not available",
+        "companyId":"5"
     },
     {
         "title": "PhonePe",
-        "id":6,
+        "id":"6",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "Online portal for monetary transactions, bill payments and shopping",
         "rating": "4.2",
@@ -111,11 +116,12 @@
         "comp_type":"Private",
         "founded":"2015 (7 yrs old)",
         "company_size":"1001-5000",
-        "website":"http://www.phonepe.com"
+        "website":"http://www.phonepe.com",
+        "companyId":"6"
     },
     {
         "title": "Vodafone Idea (Vi)",
-        "id":7,
+        "id":"7",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "#TogetherForTommorrow",
         "rating": "4.2",
@@ -130,11 +136,12 @@
         "comp_type":"Public",
         "founded":"2018 (4 yrs old)",
         "company_size":"10001-50000",
-        "website":"http://www.myvi.in"
+        "website":"http://www.myvi.in",
+        "companyId":"7"
     },
     {
         "title": "Cigna TTK",
-        "id":8,
+        "id":"8",
         "back_img":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/infosys_1920x534.jpg",
         "subtitle": "#TogetherForTommorrow",
         "rating": "4.0",
@@ -149,6 +156,7 @@
         "comp_type":"Private",
         "founded":"2012 (10 yrs old)",
         "company_size":"1001-5000",
-        "website":"not available"
+        "website":"not available",
+        "companyId":"8"
     }
 ]

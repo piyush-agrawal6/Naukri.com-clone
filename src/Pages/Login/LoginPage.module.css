@@ -1,0 +1,61 @@
+.navbarLoginBox {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 100px 100px;
+  justify-content: space-between;
+}
+
+.loginPageDivs {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.loginPageBox {
+  box-shadow: rgba(208, 208, 208, 0.35) 0px 5px 15px;
+  margin: 10% auto;
+  margin-right: 0px;
+  padding: 30px;
+  height: fit-content;
+}
+
+.loginPageBox > div {
+  text-align: left;
+  font-size: 14px;
+}
+
+.loginPageImageDiv {
+  margin-left: 250px;
+  width: 150px;
+  height: 100px;
+}
+
+.loginPageBoxForm {
+  box-shadow: rgba(162, 162, 162, 0.35) 0px 5px 15px;
+  margin: 7% auto;
+  margin-left: 3px;
+  padding: 30px;
+  height: fit-content;
+}
+
+.GoogleDividerORLogin {
+  border: 0.1px solid gray;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  font-size: 8px;
+  margin: 10px auto;
+}
+
+.formLogin {
+  margin: auto;
+}
+
+.googleDividerDiv {
+  text-align: center;
+}
+
+.GoogleButton {
+  width: max-content;
+  margin: auto;
+}

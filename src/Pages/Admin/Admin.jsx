@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { getUsers } from "../../Redux/Auth/actionsRegister";
+import { getCompany } from "../../Redux/Companies/actions";
+import { allApplyJobs, allSavedJobs, getJobs } from "../../Redux/Jobs/actions";
 import "./Admin.css";
 import AdminNav from "./AdminNav";
 const Admin = () => {
+  const { users } = useSelector((store) => store.auth);
+  const { jobs } = useSelector((store) => store.job);
+  const applyjobs = useSelector((store) => store.job.allApplyJobs);
+  const { companies } = useSelector((store) => store.company);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getUsers());
+    dispatch(getJobs());
+    dispatch(getCompany());
+    dispatch(allApplyJobs());
+  }, [dispatch]);
   return (
     <div>
       <AdminNav />
@@ -12,7 +27,7 @@ const Admin = () => {
             <h2>Jobs</h2>
             <p>Total Count : </p>
             <div>
-              <span>5</span>
+              <span>{jobs.length}</span>
             </div>
           </div>
         </Link>
@@ -21,7 +36,7 @@ const Admin = () => {
             <h2>Applications</h2>
             <p>Total Count : </p>
             <div>
-              <span>5</span>
+              <span>{applyjobs.length}</span>
             </div>
           </div>
         </Link>
@@ -30,7 +45,7 @@ const Admin = () => {
             <h2>Companies</h2>
             <p>Total Count : </p>
             <div>
-              <span>5</span>
+              <span>{companies.length}</span>
             </div>
           </div>
         </Link>
@@ -39,7 +54,7 @@ const Admin = () => {
             <h2>Users</h2>
             <p>Total Count : </p>
             <div>
-              <span>5</span>
+              <span>{users.length}</span>
             </div>
           </div>
         </Link>

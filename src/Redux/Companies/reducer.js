@@ -1,14 +1,34 @@
+import * as types from "./types";
 const initialState = {
-  companies:[]
+  loading: false,
+  error: false,
+  companies: [],
+  singleCompany: {},
 };
 
 export const companyReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case "ADD_COMPANY_LIST":
+  const { type, payload } = action;
+  switch (type) {
+    case types.GET_COMPANY_SUCCESS: {
       return {
-        companies:action.payload
+        ...state,
+        loading: false,
+        companies: payload,
       };
-    default:
+    }
+    case types.GET_SINGLE_COMPANY_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        singleCompany: payload,
+      };
+    }
+
+    case types.GET_COMPANY_FAILURE: {
+      return { ...state, loading: false, error: true };
+    }
+    default: {
       return state;
+    }
   }
 };

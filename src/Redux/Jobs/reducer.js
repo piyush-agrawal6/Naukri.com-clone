@@ -4,6 +4,10 @@ const initialState = {
   error: false,
   jobs: [],
   singleJob: {},
+  savedJobs: [],
+  allSavedJobs: [],
+  allApplyJobs: [],
+  applyJobs: [],
 };
 
 export const jobReducer = (state = initialState, action) => {
@@ -19,11 +23,39 @@ export const jobReducer = (state = initialState, action) => {
         jobs: payload,
       };
     }
+    case types.GET_SAVE_JOBS_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        allSavedJobs: payload,
+      };
+    }
+    case types.GET_APPLY_JOBS_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        allApplyJobs: payload,
+      };
+    }
     case types.GET_SINGLE_JOBS_SUCCESS: {
       return {
         ...state,
         loading: false,
         singleJob: payload,
+      };
+    }
+    case types.SAVE_JOBS_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        savedJobs: [...state.savedJobs, payload],
+      };
+    }
+    case types.APPLY_JOBS_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        savedJobs: [...state.applyJobs, payload],
       };
     }
     case types.GET_JOBS_FAILURE: {

@@ -6,14 +6,17 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose, MdOutlineLogout } from "react-icons/md";
 import { RiAdminLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
-
+import { useDispatch, useSelector } from "react-redux";
+import { logoutUser } from "../../Redux/Auth/actionsRegister";
+import image from "./logo.png";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
   };
-  const user = "admin";
-  const Login = false;
+
+  let dispatch = useDispatch();
+  let { isLogin, userRole } = useSelector((store) => store.auth);
 
   const styleA = { left: "-100%" };
   const styleB = { left: "0%" };
@@ -23,7 +26,7 @@ const Navbar = () => {
         <div className="nav-item item-left">
           <div className="logo">
             <Link to="/">
-              <img src="./assets/logo.png" alt="logo" />
+              <img src={image} alt="logo" />
             </Link>
           </div>
         </div>
@@ -40,9 +43,6 @@ const Navbar = () => {
               <li className="menuItem" onClick={handleClick}>
                 <Link to="/company">Companies</Link>
               </li>
-              {/* <li className="menuItem" onClick={handleClick}>
-                <Link>Creators</Link>
-              </li> */}
               <p className="mobItem" onClick={handleClick}>
                 <Link to="/register">Login / Signup</Link>
               </p>
@@ -63,7 +63,7 @@ const Navbar = () => {
           <div className="navIcons hide">
             <BiSearch className="sideIcons" />
           </div>
-          {user === "admin" ? (
+          {userRole && isLogin ? (
             <div className="navIcons display">
               <Link to="/admin">
                 <RiAdminLine className="sideIcons" />
@@ -71,7 +71,7 @@ const Navbar = () => {
               </Link>
             </div>
           ) : null}
-          {Login ? (
+          {isLogin ? (
             <div className="navIcons">
               <Link to="/profile">
                 <CgProfile className="sideIcons" />
@@ -86,12 +86,14 @@ const Navbar = () => {
               </Link>
             </div>
           )}
-          <div className="navIcons">
-            <Link to="/register">
-              <MdOutlineLogout className="sideIcons" />
-              <p className="display">Logout</p>
-            </Link>
-          </div>
+          {isLogin ? (
+            <div className="navIcons" onClick={() => dispatch(logoutUser())}>
+              <Link to="">
+                <MdOutlineLogout className="sideIcons" />
+                <p className="display">Logout</p>
+              </Link>
+            </div>
+          ) : null}
           <div className="navIcons hamburger">
             <RxHamburgerMenu className="sideIcons" onClick={handleClick} />
           </div>

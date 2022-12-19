@@ -13,24 +13,22 @@ import {
   Button,
   Stack,
   Divider,
+  useToast,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import style from "./Register.module.css";
-import { FaSuitcase, FaBook } from "react-icons/fa";
-import { RiWhatsappFill } from "react-icons/ri";
-import { FcGoogle } from "react-icons/fc";
 import NavbarRegister from "../NavAndFooter/NavbarRegister";
 import FooterRegister from "../NavAndFooter/FooterRegister";
 import LeftPane from "./LeftPane";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { registerAPI } from "../../../Redux/Auth/actionsRegister";
+import { getUsers, registerAPI } from "../../../Redux/Auth/actionsRegister";
 
 const RegisterPage = () => {
-  const { isReg } = useSelector((store) => store.auth);
+  const { isReg, users } = useSelector((store) => store.auth);
   const dispatch = useDispatch();
   let navigate = useNavigate();
-
+  const toast = useToast();
   const [regCreds, setRegCreds] = useState({
     name: "",
     email: "",
@@ -46,11 +44,48 @@ const RegisterPage = () => {
       [name]: value,
     });
   };
-
+  console.log(users);
   const handleRegFormSubmit = (e) => {
     e.preventDefault();
-    dispatch(registerAPI({ ...regCreds, userId: Date.now() }));
+    if (
+      regCreds.email == "" ||
+      regCreds.password == "" ||
+      regCreds.mobile == "" ||
+      regCreds.name == ""
+    ) {
+      return toast({
+        title: "Email or password missing.",
+        description: "Please enter all the required fields",
+        status: "error",
+        duration: 2000,
+        position: "top",
+        isClosable: true,
+      });
+    }
+    let user = users.find((el) => el.email === regCreds.email);
+    if (user) {
+      toast({
+        title: "User already exist . Please Login",
+        status: "error",
+        duration: 2000,
+        position: "top",
+        isClosable: true,
+      });
+      return navigate("/login");
+    } else {
+      dispatch(registerAPI({ ...regCreds, userId: Date.now() }));
+      return toast({
+        title: "Registration Successful",
+        status: "success",
+        duration: 2000,
+        position: "top",
+        isClosable: true,
+      });
+    }
   };
+  useEffect(() => {
+    dispatch(getUsers());
+  }, [dispatch]);
   if (isReg) {
     return navigate("/login");
   }
@@ -154,16 +189,6 @@ const RegisterPage = () => {
                       Recruiters give first preference to candidates who have a
                       resume
                     </FormHelperText>
-                  </div>
-                  <div>
-                    <Text color="#8d8aad" fontFamily="sm">
-                      By clicking Register, you agree to the{" "}
-                      <span className={style.endSpan}>
-                        Terms and Conditions
-                      </span>{" "}
-                      & <span className={style.endSpan}>Privacy Policy</span> of
-                      Naukri.com
-                    </Text>
                   </div>
                   <div>
                     <Button colorScheme="blue" borderRadius="20" type="submit">

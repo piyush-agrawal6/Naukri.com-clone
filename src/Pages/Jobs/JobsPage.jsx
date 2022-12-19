@@ -1,17 +1,47 @@
 import React, { useEffect, useState } from "react";
 import "./JobsPage.css";
-import { Link, useParams } from "react-router-dom";
+import { json, Link, useParams } from "react-router-dom";
 import { BsBagPlus } from "react-icons/bs";
 import { TfiWallet } from "react-icons/tfi";
 import { CiLocationOn } from "react-icons/ci";
 import { BsPin } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
-import { getSingleJobs } from "../../Redux/Jobs/actions";
+import { applyJob, getSingleJobs, savedJobs } from "../../Redux/Jobs/actions";
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  FormControl,
+  Input,
+  FormLabel,
+  Button,
+  useDisclosure,
+  Select,
+  useToast,
+} from "@chakra-ui/react";
 const JobsPage = () => {
   const { id } = useParams();
+  let user = JSON.parse(localStorage.getItem("User"));
   let currentjobs = useSelector((store) => store.job.singleJob);
   const dispatch = useDispatch();
-  console.log(currentjobs);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const toast = useToast();
+  const saveJobs = () => {
+    dispatch(savedJobs({ ...currentjobs, userId: user.userId }));
+    toast({
+      title: "Job saved successfully",
+      status: "success",
+      duration: 2000,
+      position: "top",
+      isClosable: true,
+    });
+  };
+  const [saved, setSaved] = useState(false);
+  const [applied, setApplied] = useState(false);
   useEffect(() => {
     dispatch(getSingleJobs(id));
   }, [dispatch, id]);
@@ -50,9 +80,71 @@ const JobsPage = () => {
 
               <div className="part-2">
                 <div className="Apply-btn">
-                  <button className="save-btn">save</button>
-                  <button className="btn-aply">Apply</button>
+                  <button
+                    className="save-btn"
+                    onClick={() => {
+                      saveJobs();
+                      setSaved(!saved);
+                    }}
+                  >
+                    {saved ? "Saved" : "Save"}
+                  </button>
+                  <button className="btn-aply" onClick={onOpen}>
+                    {applied ? "Applied" : "Apply"}
+                  </button>
                 </div>
+
+                <Modal isOpen={isOpen} onClose={onClose}>
+                  <ModalOverlay />
+                  <ModalContent>
+                    <ModalHeader>Update your account</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody pb={6}>
+                      <FormControl>
+                        <FormLabel>Profile Picture</FormLabel>
+                        <Input placeholder="Picture link" />
+                      </FormControl>
+                      <FormControl>
+                        <FormLabel>Resume</FormLabel>
+                        <Input placeholder="Resume Link" />
+                      </FormControl>
+                      <FormControl>
+                        <FormLabel>Education</FormLabel>
+                        <Input placeholder="Educational Details" />
+                      </FormControl>
+                      <FormControl mt={4}>
+                        <FormLabel>Gender</FormLabel>
+                        <Select placeholder="Select Gender">
+                          <option value="option1">Male</option>
+                          <option value="option2">Female</option>
+                        </Select>
+                      </FormControl>
+                    </ModalBody>
+                    <ModalFooter>
+                      <Button
+                        onClick={() => {
+                          onClose();
+                          dispatch(
+                            applyJob({ ...currentjobs, userId: user.userId })
+                          );
+                          toast({
+                            title: "Job Applied successfully",
+                            status: "success",
+                            duration: 2000,
+                            position: "top",
+                            isClosable: true,
+                          });
+                          setApplied(!applied);
+                        }}
+                        colorScheme="blue"
+                        mr={3}
+                      >
+                        Apply
+                      </Button>
+                      <Button onClick={onClose}>Cancel</Button>
+                    </ModalFooter>
+                  </ModalContent>
+                </Modal>
               </div>
             </div>
 

@@ -11,7 +11,7 @@ import CompanyPage from "../Pages/Company/CompanyPage";
 import Home from "../Pages/Home/Home";
 import Jobs from "../Pages/Jobs/Jobs";
 import JobsPage from "../Pages/Jobs/JobsPage";
-import Login from "../Pages/Login/Login";
+import LoginPage from "../Pages/Login/LoginPage";
 import Profile from "../Pages/Profile/Profile";
 import Register from "../Pages/Register/Register";
 const AllRoutes = () => {
@@ -30,7 +30,7 @@ const AllRoutes = () => {
           path="/login"
           element={
             <>
-              <Navbar /> <Login />
+              <Navbar /> <LoginPage />
               <Footer />
             </>
           }

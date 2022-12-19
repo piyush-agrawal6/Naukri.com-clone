@@ -4,18 +4,17 @@ import CompSlider from "./companyComps/compSlider";
 import { Checkbox, CheckboxGroup, Stack } from "@chakra-ui/react";
 import { BsFunnel } from "react-icons/bs";
 import { ImOffice } from "react-icons/im";
-import {BottomHire} from "./companyComps/bottomHire";
+import { BottomHire } from "./companyComps/bottomHire";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import ComapnyCard from "./companyComps/companyCard";
+import { getCompany } from "../../Redux/Companies/actions";
 
 const Company = () => {
   const [data, setData] = useState([]);
+  const companyList = useSelector((state) => state.company.companies);
   const dispatch = useDispatch();
-  // const company_list = useSelector((state) => state.company.companies);
-  // console.log(company_list);
-
   const handleChange = (e) => {
     var filteredData = data.filter((ele) =>
       ele.nature.includes(e.target.value)
@@ -24,15 +23,8 @@ const Company = () => {
     setData(filteredData);
   };
 
-  const getData = () => {
-    axios.get("http://localhost:8080/posts").then((res) => {
-      dispatch({ type: "ADD_COMPANY_LIST", payload: res.data });
-      setData(res.data);
-    });
-  };
-
   useEffect(() => {
-    getData();
+    dispatch(getCompany());
   }, []);
 
   return (
@@ -40,14 +32,10 @@ const Company = () => {
       <div className="topHire">
         <b>Top companies hiring now</b>
       </div>
-      {/* <Link to={"/companypage"}>Comapnypage</Link> */}
-      {/* slider */}
       <div className="comp_slider">
         <CompSlider />
       </div>
-      {/* companies */}
       <div className="company_main">
-        {/* companies filters */}
         <div className="comp_filters">
           <div className="comp_div">
             <BsFunnel fontSize={"20px"} />
@@ -101,20 +89,16 @@ const Company = () => {
           </div>
           <hr />
         </div>
- 
- 
+
         <div className="comp_showlist">
           <div className="comp_div">
-
             <ImOffice fontSize="20px" />
             <b>Showing 2000 companies</b>
           </div>
           <div className="companies_list">
-            {data &&
-              data.map((ele) => {
-                // return <Link to={`/companypage/${ele.id}`}><ComapnyCard key={ele.id} {...ele} /></Link>;
-                return <ComapnyCard key={ele.id} {...ele} />;
-              })}
+            {companyList?.map((ele) => {
+              return <ComapnyCard key={ele.id} {...ele} />;
+            })}
           </div>
         </div>
       </div>

@@ -11,7 +11,6 @@
 }
 .home > div > div {
   background-color: white;
-  height: 400px;
 }
 .homeJob {
   width: 65%;
@@ -27,8 +26,12 @@
 }
 .homeMiddle {
   height: 70%;
-  display: flex;
   padding: 1rem 2rem;
+}
+.homeRecJob {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  margin: 10px 0;
 }
 .homeFooter {
   height: 15%;
