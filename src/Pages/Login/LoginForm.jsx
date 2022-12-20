@@ -58,7 +58,7 @@ const LoginForm = () => {
         localStorage.setItem("User", JSON.stringify(user));
         if (user.role == "user") {
           localStorage.setItem("userRole", JSON.stringify(false));
-        } else {
+        } else if (user.role == "admin") {
           localStorage.setItem("userRole", JSON.stringify(true));
         }
         return navigate("/");

@@ -59,7 +59,7 @@ const Company = () => {
             </div>
           </div>
           <hr />
-          <div className="cat_checkbox">
+          {/* <div className="cat_checkbox">
             <p>Industry</p>
             <div>
               <CheckboxGroup colorScheme="orange" defaultValue={[]}>
@@ -72,9 +72,9 @@ const Company = () => {
                 </Stack>
               </CheckboxGroup>
             </div>
-          </div>
+          </div> */}
           <hr />
-          <div className="cat_checkbox">
+          {/* <div className="cat_checkbox">
             <p>Comapany nature</p>
             <div>
               <CheckboxGroup colorScheme="orange" defaultValue={[]}>
@@ -87,7 +87,7 @@ const Company = () => {
               </CheckboxGroup>
             </div>
           </div>
-          <hr />
+          <hr /> */}
         </div>
 
         <div className="comp_showlist">
