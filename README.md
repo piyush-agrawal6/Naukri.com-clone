@@ -13,7 +13,7 @@
 <h2>Naukri.com</h2>
 
 
-# AirTable-Clone
+# HireMe-Clone
 
 ## Description
 HireMe.com is a database of resume, jobs, and recruitment consultants. Conceived as a platform of job seekers and hiring managers .
