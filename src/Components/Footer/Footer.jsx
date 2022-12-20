@@ -6,12 +6,14 @@ import {
   AiOutlineTwitter,
   AiFillLinkedin,
 } from "react-icons/ai";
+import image from "./logo.png";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div>
         <div>
-          <img src="./assets/logo.png" alt="logo" className="footerLogo" />
+          <img src={image} alt="logo" className="footerLogo" />
           <h3>Connect with us</h3>
           <span className="footerIcons">
             <AiFillFacebook />

@@ -12,6 +12,7 @@ const Home = () => {
   let appliedJobs = useSelector((store) => store.job.allApplyJobs);
   let { isLogin } = useSelector((store) => store.auth);
   const navigate = useNavigate();
+
   useEffect(() => {
     dispatch(allSavedJobs());
     dispatch(allApplyJobs());

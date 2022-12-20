@@ -51,6 +51,7 @@ const AdminUsers = () => {
   const handleRegFormSubmit = (e) => {
     e.preventDefault();
     dispatch(registerAPI({ ...regCreds, userId: Date.now() }));
+    dispatch(getUsers());
     toast({
       title: "User added successfully",
       status: "success",
@@ -73,9 +74,11 @@ const AdminUsers = () => {
   const handleClick = (e) => {
     let role = e.role === "user" ? "admin" : "user";
     dispatch(editRole({ ...e, role }));
+    dispatch(getUsers());
   };
   const handleDelete = (e) => {
     dispatch(deleteUsers(e.id));
+    dispatch(getUsers());
   };
   useEffect(() => {
     dispatch(getUsers());

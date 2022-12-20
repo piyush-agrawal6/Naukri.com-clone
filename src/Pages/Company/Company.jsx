@@ -12,15 +12,11 @@ import ComapnyCard from "./companyComps/companyCard";
 import { getCompany } from "../../Redux/Companies/actions";
 
 const Company = () => {
-  const [data, setData] = useState([]);
-  const companyList = useSelector((state) => state.company.companies);
+  let companyList = useSelector((state) => state.company.companies);
   const dispatch = useDispatch();
   const handleChange = (e) => {
-    var filteredData = data.filter((ele) =>
-      ele.nature.includes(e.target.value)
-    );
-    console.log(filteredData);
-    setData(filteredData);
+    console.log(e.target.value);
+    dispatch(getCompany(e.target.name, e.target.value));
   };
 
   useEffect(() => {
@@ -47,11 +43,19 @@ const Company = () => {
             <div>
               <CheckboxGroup colorScheme="orange" defaultValue={[]}>
                 <Stack spacing={[1, 2]} onChange={handleChange}>
-                  <Checkbox value="MNCs">MNCs</Checkbox>
-                  <Checkbox value="Startups">Startups</Checkbox>
-                  <Checkbox value="Unicorns">Unicorns</Checkbox>
-                  <Checkbox value="Manufacturing">Manufacturing</Checkbox>
-                  <Checkbox value="Banking & Finance">
+                  <Checkbox name="type" value="mnc">
+                    MNCs
+                  </Checkbox>
+                  <Checkbox name="type" value="startup">
+                    Startups
+                  </Checkbox>
+                  <Checkbox name="type" value="unicorn">
+                    Unicorns
+                  </Checkbox>
+                  <Checkbox name="type" value="manufacturing">
+                    Manufacturing
+                  </Checkbox>
+                  <Checkbox name="type" value="banking">
                     Banking & Finance
                   </Checkbox>
                 </Stack>
@@ -59,20 +63,21 @@ const Company = () => {
             </div>
           </div>
           <hr />
-          {/* <div className="cat_checkbox">
+          <div className="cat_checkbox">
             <p>Industry</p>
             <div>
               <CheckboxGroup colorScheme="orange" defaultValue={[]}>
                 <Stack spacing={[1, 2]} onChange={handleChange}>
-                  <Checkbox value="Internet">Internet</Checkbox>
-                  <Checkbox value="Healthcare">Healthcare</Checkbox>
-                  <Checkbox value="Fintech">Fintech</Checkbox>
-                  <Checkbox value="Edtech">Edtech</Checkbox>
-                  <Checkbox value="Product">Product</Checkbox>
+                  <Checkbox name="comp_type" value="Public">
+                    Public
+                  </Checkbox>
+                  <Checkbox name="comp_type" value="Private">
+                    Private
+                  </Checkbox>
                 </Stack>
               </CheckboxGroup>
             </div>
-          </div> */}
+          </div>
           <hr />
           {/* <div className="cat_checkbox">
             <p>Comapany nature</p>
