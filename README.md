@@ -11,3 +11,4 @@
 
 <h1>Project</h1>
 <h2>Naukri.com</h2>
+<p align="left"> <img src="https://www.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg" /> </p>
