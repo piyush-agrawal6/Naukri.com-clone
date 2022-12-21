@@ -1,22 +1,37 @@
-<h1>Team Members</h1>
 
-<h2>Piyush Agrawal  - Fw20_0931 (Team Lead)</h2>
-<h2>Vikas Dongarwar - fw19_0686 </h2>
-<h2>Shital Suman - fw18_0109</h2>
-<h2>Aayush Kumar - fw19_0380</h2>
-<h2>Biman Gharai - fp01_208</h2>
+## To Run Locally
 
-<h1>IA / Manager</h1>
-<h2>Manoj Attri</h2>
+Clone the project
 
-<h1>Project</h1>
-<h2>Naukri.com</h2>
+```bash
+  git clone https://github.com/piyush-agrawal6/Naukri.com-clone.git
+```
+
+Go to the project directory
+
+```bash
+  cd Naukri.com-clone
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 
-# HireMe-Clone
+# Hire Me - Naukri.com Clone
 
-## Description
 HireMe.com is a database of resume, jobs, and recruitment consultants. Conceived as a platform of job seekers and hiring managers .
+
+<img src="https://i.ibb.co/9hKfZpb/logo.png" width="500">
+
 
 ## Tech Stack
 
@@ -28,10 +43,19 @@ HireMe.com is a database of resume, jobs, and recruitment consultants. Conceived
 - **JSON Server**
 
 
+## 🔗 Links
+Client - https://hire-me-clone.netlify.app/
+
+## Features
+
+- Admin controls
+- CRUD Operations
+- Apply jobs
+- save jobs
+- add delete users
+
 ## Screenshots
 
-- Admin Page <br/> <br/>
-<a href="https://ibb.co/M2xMYPK"><img src="https://i.ibb.co/2n1gDcR/20-12-2022-13-10-11-REC.png" alt="20-12-2022-13-10-11-REC" border="0"></a>
 - Admin Page <br/> <br/>
 <a href="https://ibb.co/3YC68h9"><img src="https://i.ibb.co/VpqnhBc/20-12-2022-13-09-58-REC.png" alt="20-12-2022-13-09-58-REC" border="0"></a>
 - Profile Page <br/> <br/>
@@ -44,10 +68,19 @@ HireMe.com is a database of resume, jobs, and recruitment consultants. Conceived
 <a href="https://ibb.co/C542Sp2"><img src="https://i.ibb.co/ynKSxmS/20-12-2022-13-08-47-REC.png" alt="20-12-2022-13-08-47-REC" border="0"></a>
 - Login Page <br/> <br/>
 <a href="https://ibb.co/tHyzkWN"><img src="https://i.ibb.co/j87zB1x/20-12-2022-13-08-29-REC.png" alt="20-12-2022-13-08-29-REC" border="0"></a>
-- Register Page <br/> <br/>
-<a href="https://ibb.co/3MmJSn6"><img src="https://i.ibb.co/k92dqtb/20-12-2022-13-08-14-REC.png" alt="20-12-2022-13-08-14-REC" border="0"></a>
-<br/>
 
-## Deployed link
-- https://hire-me-clone.netlify.app
+## Blog / Presentation
+
+Presentation - https://drive.google.com/file/d/1DWTjTbSBqKm84q2q5XqHzYDpbOqzGlPW/view
+
+Blog -
+
+
+## Team Members / Contributors
+
+- [@Piyush Agrawal](https://github.com/piyush-agrawal6)
+- [@Vikash Dongarwar](https://github.com/vikasdongarwar)
+- [@Shital Suman](https://github.com/shitalkumar87)
+- [@Aayush kumar](https://github.com/Aayush983)
+- [@Biman Gharai](https://github.com/Biman721443)
 
